@@ -8,7 +8,6 @@
 
 #import "HDHessianResponseSerializer.h"
 #import "BBSHessianResult.h"
-#import <YTKNetworkPrivate.h>
 
 @implementation HDHessianResponseSerializer
 
@@ -59,7 +58,7 @@ static BOOL AFErrorOrUnderlyingErrorHasCodeInDomain(NSError *error, NSInteger co
                            data:(NSData *)data
                           error:(NSError *__autoreleasing *)error
 {
-    YTKLog(@"response:%@",response);
+    //    YTKLog(@"response:%@", response);
     if (![self validateResponse:(NSHTTPURLResponse *)response data:data error:error])
     {
         if (!error ||

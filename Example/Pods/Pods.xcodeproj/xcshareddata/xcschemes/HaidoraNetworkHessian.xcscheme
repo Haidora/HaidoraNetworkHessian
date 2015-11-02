@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '198B46BFCEDA041D4F412B58'
+               BlueprintIdentifier = '54EF07DC3CA943EEB3BE1F40'
                BlueprintName = 'HaidoraNetworkHessian'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libHaidoraNetworkHessian.a'>

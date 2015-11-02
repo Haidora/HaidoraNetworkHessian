@@ -1,6 +1,4 @@
 PODS:
-  - AFDownloadRequestOperation (2.0.1):
-    - AFNetworking (~> 2.0)
   - AFNetworking (2.6.1):
     - AFNetworking/NSURLConnection (= 2.6.1)
     - AFNetworking/NSURLSession (= 2.6.1)
@@ -22,15 +20,10 @@ PODS:
   - AFNetworking/UIKit (2.6.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Aspects (1.4.1)
+  - HaidoraNetwork (0.1.0):
+    - AFNetworking (~> 2.6.1)
   - HaidoraNetworkHessian (0.1.0):
-    - YTKNetworkExtension
-  - YTKNetwork (0.5.0):
-    - AFDownloadRequestOperation (~> 2.0)
-    - AFNetworking (~> 2.0)
-  - YTKNetworkExtension (0.1.0):
-    - Aspects
-    - YTKNetwork
+    - HaidoraNetwork
 
 DEPENDENCIES:
   - HaidoraNetworkHessian (from `../`)
@@ -40,11 +33,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
-  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  HaidoraNetworkHessian: 1f1a123872a362556ed5b6e1b03202645a5dda16
-  YTKNetwork: 3f163c181ce5f03d52cf88f39d6757f46894280c
-  YTKNetworkExtension: 3fceb910300b35115b4bb9245a3e8e877cba1901
+  HaidoraNetwork: 12e1d3d87daab55b744e65ea6f695a117842f965
+  HaidoraNetworkHessian: bc25f7b0a28a2469f10f0dc1954406573776a97f
 
 COCOAPODS: 0.39.0

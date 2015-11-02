@@ -8,7 +8,6 @@
 
 #import "HDHessianRequestSerializer.h"
 #import "BBSHessianCall.h"
-#import <YTKNetworkPrivate.h>
 
 @implementation HDHessianRequestSerializer
 
@@ -66,13 +65,16 @@
             [mutableParameters removeObjectAtIndex:0];
             [hessianCall setParameters:mutableParameters];
             [mutableRequest setHTTPBody:[hessianCall data]];
-            
-            //日志
-            YTKLog(@"request method: %@",methodName);
-            YTKLog(@"request parameter:\n");
-            [mutableParameters enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                YTKLog(@"paramter%@:%@\n",@(idx),obj);
-            }];
+
+//日志
+#ifdef DEBUG
+            NSLog(@"request method: %@", methodName);
+            NSLog(@"request parameter:\n");
+            [mutableParameters
+                enumerateObjectsUsingBlock:^(id _Nonnull obj, NSUInteger idx, BOOL *_Nonnull stop) {
+                  NSLog(@"paramter%@:%@\n", @(idx), obj);
+                }];
+#endif
         }
     }
 

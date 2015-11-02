@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "HaidoraNetworkHessian"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "HaidoraNetworkHessian."
 
   s.description      = <<-DESC
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'HaidoraNetworkHessian' => ['Pod/Assets/*.png']
   }
-  s.dependency 'YTKNetworkExtension'
+  s.dependency 'HaidoraNetwork'
 end

@@ -7,4 +7,4 @@
 //
 
 #import <YTKNetworkConfig.h>
-#import "YTKBaseRequest+HDHessianRequest.h"
+#import "HDHessianRequest+HDPrivate.h"

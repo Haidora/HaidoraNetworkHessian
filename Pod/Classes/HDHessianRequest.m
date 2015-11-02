@@ -7,29 +7,28 @@
 //
 
 #import "HDHessianRequest.h"
-#import <YTKBaseRequest+HDExtension.h>
-
+#import "HDHessianRequest+HDPrivate.h"
 #import "HDHessianRequestSerializer.h"
 #import "HDHessianResponseSerializer.h"
 
 @implementation HDHessianRequest
 
-- (NSString *)requestUrl
+- (NSString *)requesetURLString
 {
     return [NSString stringWithFormat:@"/%@", NSStringFromClass([self class])];
 }
 
-- (YTKRequestMethod)requestMethod
+- (HDRequestMethod)requestMethod
 {
-    return YTKRequestMethodPost;
+    return HDRequestMethodPost;
 }
 
-- (Class)hd_requestSerializerClass
+- (Class)requestSerializerClass
 {
     return [HDHessianRequestSerializer class];
 }
 
-- (Class)hd_responseSerializerClass
+- (Class)responseSerializerClass
 {
     return [HDHessianResponseSerializer class];
 }
@@ -48,11 +47,6 @@
     [requestArgument addObject:methodName];
     [requestArgument addObjectsFromArray:self.hd_parameters];
     return requestArgument;
-}
-
-- (BOOL)hd_validate
-{
-    return self.requestOperation.error ? NO : YES;
 }
 
 @end

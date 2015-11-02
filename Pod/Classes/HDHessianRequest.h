@@ -6,12 +6,11 @@
 //
 //
 
-#import <YTKNetwork/YTKRequest.h>
-#import "YTKBaseRequest+HDHessianRequest.h"
+#import <HaidoraNetwork.h>
 
 /**
  *  代表一个Service
  */
-@interface HDHessianRequest : YTKRequest
+@interface HDHessianRequest : HDNetworkRequest
 
 @end

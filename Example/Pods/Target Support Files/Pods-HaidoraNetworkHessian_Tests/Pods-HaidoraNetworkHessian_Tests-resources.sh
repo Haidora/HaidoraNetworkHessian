@@ -58,12 +58,12 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${BUILT_PRODUCTS_DIR}/HaidoraNetwork.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/HaidoraNetworkHessian.bundle"
-  install_resource "${BUILT_PRODUCTS_DIR}/YTKNetworkExtension.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${BUILT_PRODUCTS_DIR}/HaidoraNetwork.bundle"
   install_resource "${BUILT_PRODUCTS_DIR}/HaidoraNetworkHessian.bundle"
-  install_resource "${BUILT_PRODUCTS_DIR}/YTKNetworkExtension.bundle"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
