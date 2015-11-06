@@ -22,8 +22,6 @@
 #import "BBSHessianCall.h"
 #import "BBSHessianResult.h"
 #import "BBSHessianMapDecoder.h"
-#import "BBSHessianProxy.h"
-#import "BBSDistantHessianObject.h"
 #import "BBSHessianObjCProtocol.h"
 
 
