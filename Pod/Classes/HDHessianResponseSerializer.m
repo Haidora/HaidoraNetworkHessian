@@ -62,7 +62,7 @@ static BOOL AFErrorOrUnderlyingErrorHasCodeInDomain(NSError *error, NSInteger co
     if (![self validateResponse:(NSHTTPURLResponse *)response data:data error:error])
     {
         if (!error ||
-            AFErrorOrUnderlyingErrorHasCodeInDomain(*error, NSURLErrorCannotDecodeContentData,
+            AFErrorOrUnderlyingErrorHasCodeInDomain(*error, NSURLErrorBadServerResponse,
                                                     AFURLResponseSerializationErrorDomain))
         {
             return nil;
