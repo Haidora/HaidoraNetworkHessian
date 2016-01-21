@@ -82,3 +82,14 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-HaidoraNetworkHessian_Example/AFNetworking.framework"
+  install_framework "Pods-HaidoraNetworkHessian_Example/HaidoraNetwork.framework"
+  install_framework "Pods-HaidoraNetworkHessian_Example/HaidoraNetworkHessian.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-HaidoraNetworkHessian_Example/AFNetworking.framework"
+  install_framework "Pods-HaidoraNetworkHessian_Example/HaidoraNetwork.framework"
+  install_framework "Pods-HaidoraNetworkHessian_Example/HaidoraNetworkHessian.framework"
+fi

@@ -6,7 +6,7 @@
 //
 //
 
-#import <HaidoraNetwork.h>
+#import <HaidoraNetwork/HaidoraNetwork.h>
 
 /**
  *  代表一个Service

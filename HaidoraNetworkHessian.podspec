@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "HaidoraNetworkHessian"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "HaidoraNetworkHessian."
 
   s.description      = <<-DESC
@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
     'HaidoraNetworkHessian' => ['Pod/Assets/*.png']
   }
   s.dependency 'HaidoraNetwork'
+  s.dependency 'AFNetworking'
 end

@@ -1,0 +1,6 @@
+framework module HaidoraNetworkHessian {
+  umbrella header "HaidoraNetworkHessian-umbrella.h"
+
+  export *
+  module * { export * }
+}

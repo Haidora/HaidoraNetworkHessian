@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		209CB6FFBC1996471359F828 /* libPods-HaidoraNetworkHessian_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D51721CECCE2B5C3294363 /* libPods-HaidoraNetworkHessian_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,84 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		8102AC040F4D3469AB9CA491 /* libPods-HaidoraNetworkHessian_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 811EC23059C9ABF2E25C8DF7 /* libPods-HaidoraNetworkHessian_Example.a */; };
+		68927D6FEFE20EB07E16C69C /* Pods_HaidoraNetworkHessian_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C821B19E88E139199039CC63 /* Pods_HaidoraNetworkHessian_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		ABDE12461BE7421500CC2E6A /* AlarmQueryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11AF1BE7421500CC2E6A /* AlarmQueryModel.m */; };
-		ABDE12471BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11B11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.m */; };
-		ABDE12481BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11B31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.m */; };
-		ABDE12491BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11B51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.m */; };
-		ABDE124A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11B71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.m */; };
-		ABDE124B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11B91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.m */; };
-		ABDE124C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11BB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.m */; };
-		ABDE124D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11BD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.m */; };
-		ABDE124E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11BF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.m */; };
-		ABDE124F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11C11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.m */; };
-		ABDE12501BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11C31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.m */; };
-		ABDE12511BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11C51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.m */; };
-		ABDE12521BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11C71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.m */; };
-		ABDE12531BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11C91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.m */; };
-		ABDE12541BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11CB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.m */; };
-		ABDE12551BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11CD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.m */; };
-		ABDE12561BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11CF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.m */; };
-		ABDE12571BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11D11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.m */; };
-		ABDE12581BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_BaseBo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11D31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_BaseBo.m */; };
-		ABDE12591BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_CommonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11D51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_CommonResponse.m */; };
-		ABDE125A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_MsgHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11D71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_MsgHeader.m */; };
-		ABDE125B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_PageCommonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11D91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_PageCommonResponse.m */; };
-		ABDE125C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11DB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.m */; };
-		ABDE125D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11DD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.m */; };
-		ABDE125E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11DF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.m */; };
-		ABDE125F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11E11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.m */; };
-		ABDE12601BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmStat.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11E31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmStat.m */; };
-		ABDE12611BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11E51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.m */; };
-		ABDE12621BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11E71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.m */; };
-		ABDE12631BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11E91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResultInfo.m */; };
-		ABDE12641BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ServiceResult.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11EB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ServiceResult.m */; };
-		ABDE12651BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_service_INeLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11ED1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_service_INeLocationService.m */; };
-		ABDE12661BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11EF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.m */; };
-		ABDE12671BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11F11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.m */; };
-		ABDE12681BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11F31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.m */; };
-		ABDE12691BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11F51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.m */; };
-		ABDE126A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11F71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.m */; };
-		ABDE126B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11F91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.m */; };
-		ABDE126C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11FB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.m */; };
-		ABDE126D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11FD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.m */; };
-		ABDE126E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE11FF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.m */; };
-		ABDE126F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12011BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.m */; };
-		ABDE12701BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12031BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.m */; };
-		ABDE12711BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12051BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.m */; };
-		ABDE12721BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12071BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.m */; };
-		ABDE12731BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12091BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.m */; };
-		ABDE12741BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE120B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.m */; };
-		ABDE12751BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE120D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.m */; };
-		ABDE12761BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE120F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.m */; };
-		ABDE12771BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12111BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.m */; };
-		ABDE12781BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12131BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.m */; };
-		ABDE12791BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12151BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.m */; };
-		ABDE127A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12171BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.m */; };
-		ABDE127B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12191BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.m */; };
-		ABDE127C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE121B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.m */; };
-		ABDE127D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE121D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.m */; };
-		ABDE127E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE121F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.m */; };
-		ABDE127F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12211BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.m */; };
-		ABDE12801BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12231BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.m */; };
-		ABDE12811BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12251BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.m */; };
-		ABDE12821BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12271BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.m */; };
-		ABDE12831BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12291BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.m */; };
-		ABDE12841BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE122B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.m */; };
-		ABDE12851BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE122D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.m */; };
-		ABDE12861BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE122F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.m */; };
-		ABDE12871BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12311BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.m */; };
-		ABDE12881BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12331BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.m */; };
-		ABDE12891BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12351BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.m */; };
-		ABDE128A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12371BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.m */; };
-		ABDE128B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12391BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.m */; };
-		ABDE128C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE123B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.m */; };
-		ABDE128D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE123D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.m */; };
-		ABDE128E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE123F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.m */; };
-		ABDE128F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12411BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.m */; };
-		ABDE12901BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12431BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.m */; };
-		ABDE12911BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE12451BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.m */; };
+		E8C4218561DE48CF8B860020 /* Pods_HaidoraNetworkHessian_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE89B1358BAD4F11EA2F5B1 /* Pods_HaidoraNetworkHessian_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D51721CECCE2B5C3294363 /* libPods-HaidoraNetworkHessian_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraNetworkHessian_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DAAF043EEFB5C535223253 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		171A5D484C196737829F7FA2 /* Pods-HaidoraNetworkHessian_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraNetworkHessian_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraNetworkHessian_Tests/Pods-HaidoraNetworkHessian_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36DADA58C2742DF4BF27816D /* Pods-HaidoraNetworkHessian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraNetworkHessian_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraNetworkHessian_Tests/Pods-HaidoraNetworkHessian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,164 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		811EC23059C9ABF2E25C8DF7 /* libPods-HaidoraNetworkHessian_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraNetworkHessian_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8494C141F71B85221B09F67E /* Pods-HaidoraNetworkHessian_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraNetworkHessian_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraNetworkHessian_Example/Pods-HaidoraNetworkHessian_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		ABDE11AE1BE7421500CC2E6A /* AlarmQueryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmQueryModel.h; sourceTree = "<group>"; };
-		ABDE11AF1BE7421500CC2E6A /* AlarmQueryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmQueryModel.m; sourceTree = "<group>"; };
-		ABDE11B01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.h; sourceTree = "<group>"; };
-		ABDE11B11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.m; sourceTree = "<group>"; };
-		ABDE11B21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.h; sourceTree = "<group>"; };
-		ABDE11B31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.m; sourceTree = "<group>"; };
-		ABDE11B41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.h; sourceTree = "<group>"; };
-		ABDE11B51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.m; sourceTree = "<group>"; };
-		ABDE11B61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.h; sourceTree = "<group>"; };
-		ABDE11B71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.m; sourceTree = "<group>"; };
-		ABDE11B81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.h; sourceTree = "<group>"; };
-		ABDE11B91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.m; sourceTree = "<group>"; };
-		ABDE11BA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.h; sourceTree = "<group>"; };
-		ABDE11BB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.m; sourceTree = "<group>"; };
-		ABDE11BC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.h; sourceTree = "<group>"; };
-		ABDE11BD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.m; sourceTree = "<group>"; };
-		ABDE11BE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.h; sourceTree = "<group>"; };
-		ABDE11BF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.m; sourceTree = "<group>"; };
-		ABDE11C01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.h; sourceTree = "<group>"; };
-		ABDE11C11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.m; sourceTree = "<group>"; };
-		ABDE11C21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.h; sourceTree = "<group>"; };
-		ABDE11C31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.m; sourceTree = "<group>"; };
-		ABDE11C41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.h; sourceTree = "<group>"; };
-		ABDE11C51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.m; sourceTree = "<group>"; };
-		ABDE11C61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.h; sourceTree = "<group>"; };
-		ABDE11C71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.m; sourceTree = "<group>"; };
-		ABDE11C81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.h; sourceTree = "<group>"; };
-		ABDE11C91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.m; sourceTree = "<group>"; };
-		ABDE11CA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.h; sourceTree = "<group>"; };
-		ABDE11CB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.m; sourceTree = "<group>"; };
-		ABDE11CC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.h; sourceTree = "<group>"; };
-		ABDE11CD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.m; sourceTree = "<group>"; };
-		ABDE11CE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.h; sourceTree = "<group>"; };
-		ABDE11CF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.m; sourceTree = "<group>"; };
-		ABDE11D01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.h; sourceTree = "<group>"; };
-		ABDE11D11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.m; sourceTree = "<group>"; };
-		ABDE11D21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_BaseBo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_base_po_BaseBo.h; sourceTree = "<group>"; };
-		ABDE11D31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_BaseBo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_base_po_BaseBo.m; sourceTree = "<group>"; };
-		ABDE11D41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_CommonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_base_po_CommonResponse.h; sourceTree = "<group>"; };
-		ABDE11D51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_CommonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_base_po_CommonResponse.m; sourceTree = "<group>"; };
-		ABDE11D61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_MsgHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_base_po_MsgHeader.h; sourceTree = "<group>"; };
-		ABDE11D71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_MsgHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_base_po_MsgHeader.m; sourceTree = "<group>"; };
-		ABDE11D81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_PageCommonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_base_po_PageCommonResponse.h; sourceTree = "<group>"; };
-		ABDE11D91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_PageCommonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_base_po_PageCommonResponse.m; sourceTree = "<group>"; };
-		ABDE11DA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.h; sourceTree = "<group>"; };
-		ABDE11DB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.m; sourceTree = "<group>"; };
-		ABDE11DC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.h; sourceTree = "<group>"; };
-		ABDE11DD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.m; sourceTree = "<group>"; };
-		ABDE11DE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.h; sourceTree = "<group>"; };
-		ABDE11DF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.m; sourceTree = "<group>"; };
-		ABDE11E01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.h; sourceTree = "<group>"; };
-		ABDE11E11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.m; sourceTree = "<group>"; };
-		ABDE11E21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_neloc_po_AlarmStat.h; sourceTree = "<group>"; };
-		ABDE11E31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmStat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_neloc_po_AlarmStat.m; sourceTree = "<group>"; };
-		ABDE11E41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.h; sourceTree = "<group>"; };
-		ABDE11E51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.m; sourceTree = "<group>"; };
-		ABDE11E61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.h; sourceTree = "<group>"; };
-		ABDE11E71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.m; sourceTree = "<group>"; };
-		ABDE11E81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_neloc_po_ResultInfo.h; sourceTree = "<group>"; };
-		ABDE11E91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_neloc_po_ResultInfo.m; sourceTree = "<group>"; };
-		ABDE11EA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ServiceResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_neloc_po_ServiceResult.h; sourceTree = "<group>"; };
-		ABDE11EB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ServiceResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_neloc_po_ServiceResult.m; sourceTree = "<group>"; };
-		ABDE11EC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_service_INeLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_neloc_service_INeLocationService.h; sourceTree = "<group>"; };
-		ABDE11ED1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_service_INeLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_neloc_service_INeLocationService.m; sourceTree = "<group>"; };
-		ABDE11EE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.h; sourceTree = "<group>"; };
-		ABDE11EF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.m; sourceTree = "<group>"; };
-		ABDE11F01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE11F11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE11F21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE11F31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE11F41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE11F51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE11F61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE11F71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE11F81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE11F91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE11FA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE11FB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE11FC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE11FD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE11FE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE11FF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE12001BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12011BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE12021BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE12031BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE12041BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.h; sourceTree = "<group>"; };
-		ABDE12051BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.m; sourceTree = "<group>"; };
-		ABDE12061BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12071BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE12081BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12091BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE120A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE120B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE120C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.h; sourceTree = "<group>"; };
-		ABDE120D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.m; sourceTree = "<group>"; };
-		ABDE120E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.h; sourceTree = "<group>"; };
-		ABDE120F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.m; sourceTree = "<group>"; };
-		ABDE12101BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.h; sourceTree = "<group>"; };
-		ABDE12111BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.m; sourceTree = "<group>"; };
-		ABDE12121BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12131BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE12141BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE12151BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE12161BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.h; sourceTree = "<group>"; };
-		ABDE12171BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.m; sourceTree = "<group>"; };
-		ABDE12181BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.h; sourceTree = "<group>"; };
-		ABDE12191BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.m; sourceTree = "<group>"; };
-		ABDE121A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.h; sourceTree = "<group>"; };
-		ABDE121B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.m; sourceTree = "<group>"; };
-		ABDE121C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE121D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE121E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.h; sourceTree = "<group>"; };
-		ABDE121F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.m; sourceTree = "<group>"; };
-		ABDE12201BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.h; sourceTree = "<group>"; };
-		ABDE12211BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.m; sourceTree = "<group>"; };
-		ABDE12221BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.h; sourceTree = "<group>"; };
-		ABDE12231BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.m; sourceTree = "<group>"; };
-		ABDE12241BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12251BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.m; sourceTree = "<group>"; };
-		ABDE12261BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.h; sourceTree = "<group>"; };
-		ABDE12271BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.m; sourceTree = "<group>"; };
-		ABDE12281BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.h; sourceTree = "<group>"; };
-		ABDE12291BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.m; sourceTree = "<group>"; };
-		ABDE122A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.h; sourceTree = "<group>"; };
-		ABDE122B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.m; sourceTree = "<group>"; };
-		ABDE122C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE122D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE122E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.h; sourceTree = "<group>"; };
-		ABDE122F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.m; sourceTree = "<group>"; };
-		ABDE12301BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.h; sourceTree = "<group>"; };
-		ABDE12311BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.m; sourceTree = "<group>"; };
-		ABDE12321BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12331BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.m; sourceTree = "<group>"; };
-		ABDE12341BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.h; sourceTree = "<group>"; };
-		ABDE12351BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.m; sourceTree = "<group>"; };
-		ABDE12361BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12371BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.m; sourceTree = "<group>"; };
-		ABDE12381BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.h; sourceTree = "<group>"; };
-		ABDE12391BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.m; sourceTree = "<group>"; };
-		ABDE123A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.h; sourceTree = "<group>"; };
-		ABDE123B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.m; sourceTree = "<group>"; };
-		ABDE123C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.h; sourceTree = "<group>"; };
-		ABDE123D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.m; sourceTree = "<group>"; };
-		ABDE123E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.h; sourceTree = "<group>"; };
-		ABDE123F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.m; sourceTree = "<group>"; };
-		ABDE12401BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.h; sourceTree = "<group>"; };
-		ABDE12411BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.m; sourceTree = "<group>"; };
-		ABDE12421BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.h; sourceTree = "<group>"; };
-		ABDE12431BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.m; sourceTree = "<group>"; };
-		ABDE12441BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.h; sourceTree = "<group>"; };
-		ABDE12451BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.m; sourceTree = "<group>"; };
 		BA348558941F4AE77291B296 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C821B19E88E139199039CC63 /* Pods_HaidoraNetworkHessian_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraNetworkHessian_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3A57B0170A855B5BD8936C /* Pods-HaidoraNetworkHessian_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraNetworkHessian_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraNetworkHessian_Example/Pods-HaidoraNetworkHessian_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DA913D54D3ADE109A02C25F8 /* HaidoraNetworkHessian.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HaidoraNetworkHessian.podspec; path = ../HaidoraNetworkHessian.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DFE89B1358BAD4F11EA2F5B1 /* Pods_HaidoraNetworkHessian_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraNetworkHessian_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8102AC040F4D3469AB9CA491 /* libPods-HaidoraNetworkHessian_Example.a in Frameworks */,
+				E8C4218561DE48CF8B860020 /* Pods_HaidoraNetworkHessian_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				209CB6FFBC1996471359F828 /* libPods-HaidoraNetworkHessian_Tests.a in Frameworks */,
+				68927D6FEFE20EB07E16C69C /* Pods_HaidoraNetworkHessian_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +96,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				ABDE11AD1BE7421500CC2E6A /* objcgen */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for HaidoraNetworkHessian */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -350,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				811EC23059C9ABF2E25C8DF7 /* libPods-HaidoraNetworkHessian_Example.a */,
-				05D51721CECCE2B5C3294363 /* libPods-HaidoraNetworkHessian_Tests.a */,
+				DFE89B1358BAD4F11EA2F5B1 /* Pods_HaidoraNetworkHessian_Example.framework */,
+				C821B19E88E139199039CC63 /* Pods_HaidoraNetworkHessian_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -420,166 +191,6 @@
 				171A5D484C196737829F7FA2 /* Pods-HaidoraNetworkHessian_Tests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		ABDE11AD1BE7421500CC2E6A /* objcgen */ = {
-			isa = PBXGroup;
-			children = (
-				ABDE11AE1BE7421500CC2E6A /* AlarmQueryModel.h */,
-				ABDE11AF1BE7421500CC2E6A /* AlarmQueryModel.m */,
-				ABDE11B01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.h */,
-				ABDE11B11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.m */,
-				ABDE11B21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.h */,
-				ABDE11B31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.m */,
-				ABDE11B41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.h */,
-				ABDE11B51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.m */,
-				ABDE11B61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.h */,
-				ABDE11B71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.m */,
-				ABDE11B81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.h */,
-				ABDE11B91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.m */,
-				ABDE11BA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.h */,
-				ABDE11BB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.m */,
-				ABDE11BC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.h */,
-				ABDE11BD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.m */,
-				ABDE11BE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.h */,
-				ABDE11BF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.m */,
-				ABDE11C01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.h */,
-				ABDE11C11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.m */,
-				ABDE11C21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.h */,
-				ABDE11C31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.m */,
-				ABDE11C41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.h */,
-				ABDE11C51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.m */,
-				ABDE11C61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.h */,
-				ABDE11C71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.m */,
-				ABDE11C81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.h */,
-				ABDE11C91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.m */,
-				ABDE11CA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.h */,
-				ABDE11CB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.m */,
-				ABDE11CC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.h */,
-				ABDE11CD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.m */,
-				ABDE11CE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.h */,
-				ABDE11CF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.m */,
-				ABDE11D01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.h */,
-				ABDE11D11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.m */,
-				ABDE11D21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_BaseBo.h */,
-				ABDE11D31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_BaseBo.m */,
-				ABDE11D41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_CommonResponse.h */,
-				ABDE11D51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_CommonResponse.m */,
-				ABDE11D61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_MsgHeader.h */,
-				ABDE11D71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_MsgHeader.m */,
-				ABDE11D81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_PageCommonResponse.h */,
-				ABDE11D91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_PageCommonResponse.m */,
-				ABDE11DA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.h */,
-				ABDE11DB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.m */,
-				ABDE11DC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.h */,
-				ABDE11DD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.m */,
-				ABDE11DE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.h */,
-				ABDE11DF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.m */,
-				ABDE11E01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.h */,
-				ABDE11E11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.m */,
-				ABDE11E21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmStat.h */,
-				ABDE11E31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmStat.m */,
-				ABDE11E41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.h */,
-				ABDE11E51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.m */,
-				ABDE11E61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.h */,
-				ABDE11E71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.m */,
-				ABDE11E81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResultInfo.h */,
-				ABDE11E91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResultInfo.m */,
-				ABDE11EA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ServiceResult.h */,
-				ABDE11EB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ServiceResult.m */,
-				ABDE11EC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_service_INeLocationService.h */,
-				ABDE11ED1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_service_INeLocationService.m */,
-				ABDE11EE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.h */,
-				ABDE11EF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.m */,
-				ABDE11F01BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.h */,
-				ABDE11F11BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.m */,
-				ABDE11F21BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.h */,
-				ABDE11F31BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.m */,
-				ABDE11F41BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.h */,
-				ABDE11F51BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.m */,
-				ABDE11F61BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.h */,
-				ABDE11F71BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.m */,
-				ABDE11F81BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.h */,
-				ABDE11F91BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.m */,
-				ABDE11FA1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.h */,
-				ABDE11FB1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.m */,
-				ABDE11FC1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.h */,
-				ABDE11FD1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.m */,
-				ABDE11FE1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.h */,
-				ABDE11FF1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.m */,
-				ABDE12001BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.h */,
-				ABDE12011BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.m */,
-				ABDE12021BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.h */,
-				ABDE12031BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.m */,
-				ABDE12041BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.h */,
-				ABDE12051BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.m */,
-				ABDE12061BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.h */,
-				ABDE12071BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.m */,
-				ABDE12081BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.h */,
-				ABDE12091BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.m */,
-				ABDE120A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.h */,
-				ABDE120B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.m */,
-				ABDE120C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.h */,
-				ABDE120D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.m */,
-				ABDE120E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.h */,
-				ABDE120F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.m */,
-				ABDE12101BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.h */,
-				ABDE12111BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.m */,
-				ABDE12121BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.h */,
-				ABDE12131BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.m */,
-				ABDE12141BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.h */,
-				ABDE12151BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.m */,
-				ABDE12161BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.h */,
-				ABDE12171BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.m */,
-				ABDE12181BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.h */,
-				ABDE12191BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.m */,
-				ABDE121A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.h */,
-				ABDE121B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.m */,
-				ABDE121C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.h */,
-				ABDE121D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.m */,
-				ABDE121E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.h */,
-				ABDE121F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.m */,
-				ABDE12201BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.h */,
-				ABDE12211BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.m */,
-				ABDE12221BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.h */,
-				ABDE12231BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.m */,
-				ABDE12241BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.h */,
-				ABDE12251BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.m */,
-				ABDE12261BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.h */,
-				ABDE12271BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.m */,
-				ABDE12281BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.h */,
-				ABDE12291BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.m */,
-				ABDE122A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.h */,
-				ABDE122B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.m */,
-				ABDE122C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.h */,
-				ABDE122D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.m */,
-				ABDE122E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.h */,
-				ABDE122F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.m */,
-				ABDE12301BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.h */,
-				ABDE12311BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.m */,
-				ABDE12321BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.h */,
-				ABDE12331BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.m */,
-				ABDE12341BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.h */,
-				ABDE12351BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.m */,
-				ABDE12361BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.h */,
-				ABDE12371BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.m */,
-				ABDE12381BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.h */,
-				ABDE12391BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.m */,
-				ABDE123A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.h */,
-				ABDE123B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.m */,
-				ABDE123C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.h */,
-				ABDE123D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.m */,
-				ABDE123E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.h */,
-				ABDE123F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.m */,
-				ABDE12401BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.h */,
-				ABDE12411BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.m */,
-				ABDE12421BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.h */,
-				ABDE12431BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.m */,
-				ABDE12441BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.h */,
-				ABDE12451BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.m */,
-			);
-			name = objcgen;
-			path = ../../../../../../../Desktop/monitorscene/objcgen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -779,85 +390,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDE125B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_PageCommonResponse.m in Sources */,
-				ABDE12711BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoResponse.m in Sources */,
-				ABDE12461BE7421500CC2E6A /* AlarmQueryModel.m in Sources */,
-				ABDE126C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvResponse.m in Sources */,
-				ABDE12741BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvResponse.m in Sources */,
-				ABDE128B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvResponse.m in Sources */,
-				ABDE12861BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryRadioCmdInfoSrvResponse.m in Sources */,
-				ABDE124A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumResponse.m in Sources */,
-				ABDE12571BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_service_IAlarmBoardSrv.m in Sources */,
-				ABDE127E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationListInfo.m in Sources */,
-				ABDE12891BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvResponse.m in Sources */,
-				ABDE125C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvRequest.m in Sources */,
-				ABDE125E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_RegionOfUserInfo.m in Sources */,
-				ABDE126A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvResponse.m in Sources */,
-				ABDE12591BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_CommonResponse.m in Sources */,
-				ABDE12911BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_servcie_ITroubleShootingAssistantSrv.m in Sources */,
-				ABDE12471BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfo.m in Sources */,
-				ABDE12561BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNumResponse.m in Sources */,
-				ABDE125A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_MsgHeader.m in Sources */,
-				ABDE128A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryNeListSrvRequest.m in Sources */,
-				ABDE12661BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfo.m in Sources */,
-				ABDE12511BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNum.m in Sources */,
-				ABDE12831BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvRequest.m in Sources */,
-				ABDE12721BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryInfoSrvRequest.m in Sources */,
-				ABDE124F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfo.m in Sources */,
-				ABDE124E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmStatisticRequest.m in Sources */,
-				ABDE12781BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvRequest.m in Sources */,
-				ABDE12701BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvResponse.m in Sources */,
-				ABDE12821BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvResponse.m in Sources */,
-				ABDE126D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvRequest.m in Sources */,
-				ABDE127A1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryInfo.m in Sources */,
-				ABDE12801BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeInfo.m in Sources */,
-				ABDE127F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_service_StationEntryProvideSrv.m in Sources */,
-				ABDE124C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNumResponse.m in Sources */,
-				ABDE125F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmDetail.m in Sources */,
-				ABDE12481BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmInfoResponse.m in Sources */,
-				ABDE127D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvResponse.m in Sources */,
-				ABDE12901BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_SendCmdSrvRequest.m in Sources */,
-				ABDE12611BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_LabelValueBean.m in Sources */,
-				ABDE125D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_QueryRegionOfUserSrvResponse.m in Sources */,
-				ABDE12691BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageLocationStationListInfoSrvRequest.m in Sources */,
-				ABDE12671BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvRequest.m in Sources */,
 				6003F59E195388D20070C39A /* HDAppDelegate.m in Sources */,
-				ABDE12501BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmInfoResponse.m in Sources */,
-				ABDE12631BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResultInfo.m in Sources */,
-				ABDE12681BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_CheckStationInfoSrvResponse.m in Sources */,
 				6003F5A7195388D20070C39A /* HDViewController.m in Sources */,
-				ABDE126E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageStationListInfoSrvResponse.m in Sources */,
-				ABDE126B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageReservationStationListInfoSrvRequest.m in Sources */,
-				ABDE12791BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfoSrvResponse.m in Sources */,
-				ABDE127B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfo.m in Sources */,
-				ABDE128F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionOfUserInfo.m in Sources */,
-				ABDE12771BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryHistoryInfo.m in Sources */,
-				ABDE128C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PowerEnviroMentInfo.m in Sources */,
-				ABDE12851BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InquiryPowerEnviroMentInfoSrvResponse.m in Sources */,
-				ABDE128E1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RegionCityInfo.m in Sources */,
-				ABDE12521BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WirelessAlarmNumResponse.m in Sources */,
-				ABDE124B1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_MajorAlarmNum.m in Sources */,
-				ABDE12871BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_NeInfo.m in Sources */,
-				ABDE12731BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_SaveStationEntryLinkInfoSrvRequest.m in Sources */,
-				ABDE128D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_RadioCmdInfo.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				ABDE127C1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryListInfoSrvRequest.m in Sources */,
-				ABDE12811BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_Cmd4NeSrvRequest.m in Sources */,
-				ABDE12881BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_PageInquiryMyNeListSrvRequest.m in Sources */,
-				ABDE12551BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmNum.m in Sources */,
-				ABDE12541BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfoResponse.m in Sources */,
-				ABDE12491BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_BlockAlarmNumInfo.m in Sources */,
-				ABDE12841BE7421500CC2E6A /* com_boco_bmdp_faultmanage_troubleshooting_po_InitRegionCitySrvResponse.m in Sources */,
-				ABDE12601BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_AlarmStat.m in Sources */,
-				ABDE12531BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_WlanAlarmInfo.m in Sources */,
-				ABDE12621BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ResourceDetail.m in Sources */,
-				ABDE12751BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvRequest.m in Sources */,
-				ABDE12641BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_po_ServiceResult.m in Sources */,
-				ABDE126F1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_PageTeamStationListInfoSrvRequest.m in Sources */,
-				ABDE12761BE7421500CC2E6A /* com_boco_bmdp_faultmanage_stationentry_po_StationEntryDetailSrvResponse.m in Sources */,
-				ABDE124D1BE7421500CC2E6A /* com_boco_bmdp_faultmanage_alarmboard_po_QueryAlarmDetailRequest.m in Sources */,
-				ABDE12581BE7421500CC2E6A /* com_boco_bmdp_faultmanage_base_po_BaseBo.m in Sources */,
-				ABDE12651BE7421500CC2E6A /* com_boco_bmdp_faultmanage_neloc_service_INeLocationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

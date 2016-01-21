@@ -1,1 +1,0 @@
-../../../HaidoraNetwork/Pod/Classes/HDNetworkConfig.h
