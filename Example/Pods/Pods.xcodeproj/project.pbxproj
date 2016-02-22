@@ -7,130 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426EAF5CA9E98FF8DD5F21601248195 /* HDHessianBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4244C8990F3A3D548A00A361CCBC49 /* HDHessianBaseModel.m */; };
 		081A50535FCDF50D0118223459790167 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F8D446041376836107780856E64DA /* UIImageView+AFNetworking.m */; };
-		0DCDD3C56F2F378194875D846E1BEB10 /* HaidoraNetworkHessian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23528516A27143BB7404B8758066D3 /* HaidoraNetworkHessian-dummy.m */; };
 		1389748BE24F9D2223187CB20D9A020C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 258D8F577714563D64C8769F6A0C1020 /* AFURLRequestSerialization.m */; };
-		156CCF5D288311BFF5F74B6810516F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57320CE19CF3A790529B263314F155C1 /* Foundation.framework */; };
+		13F3AC8928EA29F81C4B89F06C7151A7 /* BBSHessianEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F88570D61735A06BEB7458F25533119 /* BBSHessianEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		169063AC23567DF0DFAF50CAADCA00D6 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DF558ECB3381FD0F9F0A9E8E6ACA17 /* AFNetworking.framework */; };
+		1818949B9C176C2C33E66D4B452D8232 /* HaidoraNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD06DE6F543FA40B037DAD003BAED5A /* HaidoraNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A15E1DAB1BF63371AE5ADFAED9169E5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B218E9E8365187EE7825592FC570D8 /* UIRefreshControl+AFNetworking.m */; };
-		1B48E4E70E69753FDE1C78893EC2E1AD /* HDHessianResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC6BE3CAF3A2BC8EAE9CDB676BB5271 /* HDHessianResponseSerializer.m */; };
 		1CF7A3FE1060E6584ECB348F11A34148 /* Pods-HaidoraNetworkHessian_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAD8B6349A26EC36DDB53D614ED3C3F /* Pods-HaidoraNetworkHessian_Example-dummy.m */; };
-		1E5439DAC56C3DEEA37E0E5505F0F852 /* HDHessianBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D821D8608EB651DD2176FFB86B2303 /* HDHessianBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EA06503C7AF1CA5E13950E3E7D7830E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7F4551B07C4D40405B5377F4D55CE /* AFNetworkActivityIndicatorManager.m */; };
-		1F00B09A632CE2B444C6FC00D9CD3E81 /* BBSHessianDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D04CB1A02CDFD0E6E32D4294872F8203 /* BBSHessianDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		225E8573A861E5D748E20F0AB01B8FB1 /* BBSHessianMapDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D707AD3951D16397DF5CDAE8353C8BA3 /* BBSHessianMapDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24D1461CB113D3EB14C5F3E012D89102 /* HaidoraNetworkHessian-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FE4307F9B03094594FC776B03EE85C /* HaidoraNetworkHessian-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		255F74CE1C76C6BA84A97B62FDC06D76 /* BBSHessianResult.h in Headers */ = {isa = PBXBuildFile; fileRef = BA499D9F9963C241DAD3F6B5518E9E17 /* BBSHessianResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		290353FFD70C6FED0E88244849792541 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79ABC6208BB3B6A7BDB9D50F43C97FDB /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FEC2CC0F3226058AE37C812289B23D5 /* HDHessianBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6869BF54AE70DDFE9AC4D5576A99C6 /* HDHessianBaseModel.m */; };
+		2D0F4CADEA72D11D969D46E614D68C58 /* HDNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F9BA0D239EEED3C16535FE6DDCE766 /* HDNetworkConfig.m */; };
+		32836AF0145B0D0D4A2991F1F1C32826 /* BBSHessianDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BC0E6AA02E3FC0115A3A62E362798 /* BBSHessianDecoder.m */; };
 		32BE0FB08D9ECD2974197D862E320E36 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C665B546E79AE9BAD29AACD2C7C997C /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32EEA844FE6380DF03E39E6B43B92FDC /* HDNetworkProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC3DD95FDF6E3003A0DF1AB61C98B43 /* HDNetworkProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BEE08ED8F8B9B3B939D4D732CFBEFE /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDCF657EB5233CBC2642EB02BA0C186 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379DBEC2E14E776BF153FD42B50ABCAD /* BBSHessianDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A06A69960A9153478EFD3EC421082DD2 /* BBSHessianDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A7FE81FF3C97DDFA9F5D7B692369683 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C755DB2553D6C2EBC56E75C03D31F01 /* SystemConfiguration.framework */; };
-		3E1F09BB3CFCBFC1C717B8B9E29C6E41 /* HaidoraNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BE732B39AAF82141495C63BFFD11E0 /* HaidoraNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		401C2DDD1436B4AD6B3A43D775389EA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A40E2C6C66F3F65E7CC26730A43D18 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4126FC06B09C1514C4623BEF344EEDF2 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B66A5D7149A4A928821BACDF8581B9F5 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4238927CBE66C822169C8ACDA62A40AC /* HDNetworkRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7441AE51CCEFBDF0BB3BEC1D7799F742 /* HDNetworkRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA40063CB6EAC815D67CED2ECBC19DE /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48516D240E2BC29E5330ABEB70B1829C /* HDHessianRequestURLMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 208D2BF16A568817403B6937B5374747 /* HDHessianRequestURLMapping.m */; };
+		49B60D9061323399F22FADE3A07F213B /* HDHessianRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F20B278582D9AE4BC0927B31E3A824 /* HDHessianRequest.m */; };
+		4C0137310001F68C4F5D7F2477277079 /* HaidoraNetworkHessian.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E582F95ACA1DD6830CCBA7F90BE8F /* HaidoraNetworkHessian.bundle */; };
+		4CFCC2ABB9EF8320813674E0E6353BAA /* HDNetworkProxy+HDAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F65472301883CDC6FFF305E62ACAA8 /* HDNetworkProxy+HDAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E32C6B26518F18DC4AB3E225B86EE88 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C36652BF0FEE159D67D26D56F43560D0 /* AFSecurityPolicy.m */; };
 		4E94B8F460BF431A50D94814F7C8AF61 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DDE120EEBA7A909E60703FDFC2AF69 /* UIActivityIndicatorView+AFNetworking.m */; };
 		4F093F6FBA6E6B060CF66145CF214E14 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 898C184CB7331C7F31B9E686F76C0D1C /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FF73E3E7CC6BB021BCE93D36260A99C /* BBSHessianResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AD257C6B33DC874693543E212F8CD7 /* BBSHessianResult.m */; };
 		50E26BE0322D7CBBC70B1340A9E4CB10 /* Pods-HaidoraNetworkHessian_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5321ACA2E8DCBB4EBC35CDEAD3FECB6D /* Pods-HaidoraNetworkHessian_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5166FDD791A1D980C668FD79D9B06189 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DF558ECB3381FD0F9F0A9E8E6ACA17 /* AFNetworking.framework */; };
 		51C0B6455B174420E57200DF57CAFC95 /* HaidoraNetwork.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBD86500FC99AE3513C878B732A11E4E /* HaidoraNetwork.bundle */; };
-		55023124BF390552B1BED53BE84716C8 /* HaidoraNetworkHessian.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E582F95ACA1DD6830CCBA7F90BE8F /* HaidoraNetworkHessian.bundle */; };
 		56C8D4F00869E61F210A24E0EE8F3A13 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FE87549D032C59B87020A345AAD9B07D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FC8AA460FCACE440198790D741BE78C /* HDHessianResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE1D000437BE6B20AB94F5F4286D210 /* HDHessianResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		625AA168580102721ADE479685344176 /* BBSHessianObjCProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BFB0CE9086F1AA274EDD15B73B3936 /* BBSHessianObjCProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64B4A94E5004470804950C0933ABAD3B /* HDNetworkProxy+HDNetworkProxyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E31A8C6044BAF28AC5D24D6AA73186 /* HDNetworkProxy+HDNetworkProxyUtils.m */; };
-		68EE200B1EBAD0278ECF387DEB0D40C8 /* BBSHessianEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F6E8265D3E29A7D9015D2A4185AD86 /* BBSHessianEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58BFB849EC303A2F210A68689A74E401 /* BBSHessianObjCDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EFCB67265E8B9643023E5D1517D1D8 /* BBSHessianObjCDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5929F3E2629BB7BF29E13146DF6F33FB /* HDHessianRequest+HDPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E47D42B1E38AC051F84BFDF1E40D64B3 /* HDHessianRequest+HDPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BCCD23650AF776C0B9BE0333ADCF32F /* BBSHessianMapDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCFF34177990A92C6CD9C4DE00E72 /* BBSHessianMapDecoder.m */; };
+		5D63E75E867D0DE0D43955A9BCC773D0 /* HDNetworkProxy+HDNetworkProxyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB3E61FDE54A3C4726D1CBE69EC2499 /* HDNetworkProxy+HDNetworkProxyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F749BEFFE9F14D95DA4EC9962962BFD /* HDNetworkProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD121246101D67719583F989E5E08C22 /* HDNetworkProxy.m */; };
+		621313239AE93C54BFD67E2178D14ED5 /* HDHessianRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CE6C9A583F552FAE6BC9BE5B02840A /* HDHessianRequestSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EDA3D963292504EAFA66241D78F6A9 /* HaidoraNetworkHessian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23528516A27143BB7404B8758066D3 /* HaidoraNetworkHessian-dummy.m */; };
+		64EB053FD1F22FD64DF1EEFBA286DED8 /* HaidoraNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE5BECEC05E391A8FDE20D6411FEC75 /* HaidoraNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68F25493DF29423FEA798D2247A6C918 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F67F4246D5F34FA097C44E012389FD23 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1902471D2171F81A70ADF6A087E497 /* HDHessianResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = D58888F782ABE67BC4A79D535CBCF187 /* HDHessianResponseSerializer.m */; };
+		6D82D78C3B379F79BF4EAB56161CF176 /* BBSHessianObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FBF82D6995B88C5599BC395B6E863D /* BBSHessianObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2470B7F3052DD6846ABC7841494F24 /* BBSHessianResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6052FF375CB70504AA247D079843EA7F /* BBSHessianResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FDE95FB21B7F5E1EC7A9F49489DAC62 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B48F64F7CD5F922DF0A2EDB6E0E22DCD /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70EDC4E6BF6E7EF35FE6A28EE7FF2CC8 /* HDHessianRequest+HDPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE2E7B2850097E5D20540D32F3FA4E5 /* HDHessianRequest+HDPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		718A0F1B3191BBA9F6FFB708F34E5FA8 /* HaidoraNetworkHessian.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7D3A5E8092CDE51EE0A70111721694 /* HaidoraNetworkHessian.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		738429799D1F549612BAED56B2CEE2CD /* BBSHessianMapDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 224DCA1D87E55407B8B561D8399C9B3C /* BBSHessianMapDecoder.m */; };
+		700EC25943C285518408FB3681908D1B /* HaidoraNetworkHessian.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAA1545E81C0ECB147343F5A418CE25 /* HaidoraNetworkHessian.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76C1FA68EFCD242119622AE2CEB4D24F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D88A2B0DD4B157BA21AA9A89DBFABDC /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76C72D9FA8C86EBBC7E3E4AF7F0B4BB5 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 347B7F82AFDA67B22174A14304E340CC /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		783D82590C53CF5E9438E3373F8CCC75 /* HaidoraNetworkHessianDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B093043BCD6BC839D0681E5D0AC55E /* HaidoraNetworkHessianDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7999F436677B92F6DDA1C3D45B67762F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EB8C3DE720FE73AACF10D0CB10F9B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2BCE1457848EF97AE8B6F59BA1B931 /* UIWebView+AFNetworking.m */; };
 		7A45A31F1AA58E68648A917FA2C5DDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57320CE19CF3A790529B263314F155C1 /* Foundation.framework */; };
-		7B117A0F7E3BC067794E5678D959F3A6 /* HaidoraNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC31C264285C0F7C8F317236B296497 /* HaidoraNetwork-dummy.m */; };
-		7C2AD1DA1A8509A112EC2CF2A0951926 /* BBSHessianCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6BE5CC6558BDD8D4EFB1A48BEDB13A /* BBSHessianCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CD3C8B07B3EA0DBFAAF904C2FE2E639 /* HDHessianRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C206CE8C249452C771F39190DBD5080 /* HDHessianRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ED57A1F00EBC0170791350A31F4CF38 /* HDNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB6B10F378E7A539E5F5DFDA2981DE /* HDNetworkRequest.m */; };
-		84DF602C8BE6B0C3F10AF71958F7F4B7 /* HDNetworkProxy+HDNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = A150EB92F518743FCFD3AD12C19427AF /* HDNetworkProxy+HDNetworkPrivate.m */; };
-		879D6DCD6EB06628D3B9B85A3DCD8ED7 /* HDNetworkProxy+HDNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BBA3EEF4F474B7F3C0302B2952FC98 /* HDNetworkProxy+HDNetworkPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B07882007DDC9F99BC6B9F34C9B83A5 /* HDHessianRequest+HDPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C961C520DD4B89BEA9C04FCB01B0F9 /* HDHessianRequest+HDPrivate.m */; };
+		7B46CD40A9FEE6D7F9DE0EA4B9732D9B /* BBSHessianEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A712FFAD23EE9DDC6B319DC1C11C9C39 /* BBSHessianEncoder.m */; };
+		7E4D15C012A69BB595B91DB9E6249769 /* HDHessianRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DB610AEA052E3CE836047D2FB5FF95 /* HDHessianRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87D7512823B35ECCC6BA709ADE9BEABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57320CE19CF3A790529B263314F155C1 /* Foundation.framework */; };
-		8CC2CF2402DA56CC71C945F3623B12C0 /* HDHessianRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32D231CD07BE6B6A6B28EA4EBE77B7 /* HDHessianRequest.m */; };
-		90E32AA888DED1D35F29514DCF1E09EF /* HDNetworkProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E68CF5BBBBE3ECC2C191E70B70E722A /* HDNetworkProxy.m */; };
-		91E81896C1D1389C77BBEFFE99E2B2E3 /* HDHessianRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0EB71A667E4DEDE339EB1519BE753F /* HDHessianRequestSerializer.m */; };
-		93EF6BC0D63E772FA8A96EDA6B439724 /* HaidoraNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECB540B92909C9363F814718FA5F0CE /* HaidoraNetwork.framework */; };
+		8C46F09497BAC6FFBEC356CDFAF5675A /* HDNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAC63565BAA75E254029653AF0B1837 /* HDNetworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E5F08AAB216BB42892F43C0C4188615 /* HDNetworkDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E34103640CD8ABA0804C2544429BEB /* HDNetworkDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		945C9834347A969CDD4FB9A5AB9FF0E0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F2632FE6F1460D818D49EC4517FA9E /* AFURLSessionManager.m */; };
 		96247D22CC837A06A450BB49F1D2F79E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 736456342FF8CAF1AFC69F3C4E2D8ABB /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		995FAD3E2ABEDFEA1238B95505DB0BD0 /* HDNetworkProxy+HDNetworkProxyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE8B63265CF64BC727EF7351AAEB46D /* HDNetworkProxy+HDNetworkProxyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FAD4864DD6857C4275B9AA1D99EB8A /* BBSHessianObjCProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FC00202BC06E5FA2EDEC2E6A7B88B6 /* BBSHessianObjCProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99555D01F1481DA3DC0A98EC3DE88737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57320CE19CF3A790529B263314F155C1 /* Foundation.framework */; };
+		9A83FB58EE1C4108044F11B3613CBC1D /* BBSHessianMapDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A869DFEFEC6919420DF92520FA5C919 /* BBSHessianMapDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B071E3A43516F4BE0A9F5176A720408 /* Pods-HaidoraNetworkHessian_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA18BBA8C27C6CA2FC5EC88A2C56D8D3 /* Pods-HaidoraNetworkHessian_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6E0E56B52CA1D3B3A0B703770CAE28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0FC080C0D4332CAAC86AF062B5DE63 /* CoreGraphics.framework */; };
-		9CA4B3561B95EC9D9B1B5F88D13A3E5F /* HaidoraNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 928B671E878E8E4E02DE5D5241B1F215 /* HaidoraNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D997572BEBF0C661955570CA60EB0A1 /* BBSHessianCall.m in Sources */ = {isa = PBXBuildFile; fileRef = E7122DF6FCF6BD01433EF56C3E52F633 /* BBSHessianCall.m */; };
 		9E795055729E8F398250A5687BB00AE2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B8EC46D93F8B24CE985F6B470C4CC9 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9AA39AB910BA7441E4C92C073CB3BF6 /* HDNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C65D6E89FBE73211C02782223AC3B3 /* HDNetworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B9FC1B86C27674A0B4DF517B65F299 /* HDHessianRequestURLMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BF2C492D4E9B5D44C3619660329AAA /* HDHessianRequestURLMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEAF21EE1C5A3CE845B57183600E67C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57320CE19CF3A790529B263314F155C1 /* Foundation.framework */; };
-		AF95C4F99A611742493545D00959508B /* HDHessianRequest+HDPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E73692B3696C19C36BD2B47C45E9F35 /* HDHessianRequest+HDPrivate.m */; };
-		B22E4A96188758F5DE68460F03BA9EB4 /* HDHessianRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F27C147B8F8097632997F221335577 /* HDHessianRequestSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB12CD70826B5366EA759CD15FF4A65 /* HDNetworkProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CB15A3CF94F5A028AFD4740216B7EBE2 /* HDNetworkProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B42A49260E02658534FF92164B6FC311 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E6F7FA934B6B225FF08C898E0FF9E5 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B64AF85EEDC3338CDA3021ABDFE64BAA /* BBSHessianObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B8C7C69EA3C2C3972A0742B206230D /* BBSHessianObjC.m */; };
-		B8910DB4EF18C58461F86714C4CC952D /* BBSHessianObjCDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F24FB75D21A78FA45A69F9063AA35B /* BBSHessianObjCDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA472E57A965F0F509DC79DAD893BBB6 /* HDNetworkRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E67210A3D9CA372AFBDE65A673B9F8 /* HDNetworkRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61FA5FED596C925BE2888C25B6532AA /* BBSHessianResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CEF9C65EC8E2D52B0D54BAC97C3946 /* BBSHessianResult.m */; };
+		B8551E6E809AA8009181451E1E23179B /* HaidoraNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECB540B92909C9363F814718FA5F0CE /* HaidoraNetwork.framework */; };
+		B90A9A375DFCDFA8E9C24DC11F818590 /* HDHessianBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 954BF85874034C2F899FF3A096D3969D /* HDHessianBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB82DC2891A35AC22DD6D5CE4CAE4364 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BD12D7C3EA762793BF55EEC66DBBA92A /* UIButton+AFNetworking.m */; };
+		BB91474695D7F849B2EDD72656D0913A /* HaidoraNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE0E370DFB945800FDC32AC2DA7BB4 /* HaidoraNetwork-dummy.m */; };
+		BBC3706986E1E4D4CE143B66C974C6DF /* HDHessianRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C08CEE13136E7C86773F6AF44BD70D1 /* HDHessianRequestSerializer.m */; };
 		BD13F8B4FB32CFCD0FA4E517FC6C2111 /* Pods-HaidoraNetworkHessian_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81491076EC1AAFEC587B3C6B1262ACD /* Pods-HaidoraNetworkHessian_Tests-dummy.m */; };
-		C070F0AA39BFCF55C4270810E2FD0B2F /* HDNetworkDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEFB732E2EEA7685EC088C7EEA6FFD9 /* HDNetworkDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEAC65078D501D2ECA08F81082AC7D97 /* HDNetworkProxy+HDNetworkProxyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F33FFFB589BB1905A0ACA89539038F /* HDNetworkProxy+HDNetworkProxyUtils.m */; };
 		C087B9B3A493BC8232CBA4DB1CB47A67 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BAE4F1430C9E1A853FB555E9A2E265 /* AFNetworkReachabilityManager.m */; };
-		C2D6CCE86EF6C93E5644C65910CFFA26 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DF558ECB3381FD0F9F0A9E8E6ACA17 /* AFNetworking.framework */; };
 		C51B96A7E543F72CD7925968E35DC041 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664A5451554C38D6F9CD95AD3BF5101 /* AFNetworking-dummy.m */; };
-		C661B2AD77CBF2F22B3B5A8A0D2CB245 /* BBSHessianEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 10059BB1C3B96142744D40560E8DD635 /* BBSHessianEncoder.m */; };
+		C61B6094ECBB1E32E83C2145F5BBC3A6 /* HDNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A3AD2C3460BD5F0E3BA1108D9DAF0C /* HDNetworkRequest.m */; };
 		C6CDABE1AEBB5DC4A35A6B221BB98D13 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2812AA89B183A2AD6CD38AB31A20C /* AFURLConnectionOperation.m */; };
 		C70AC3CB2D21E9466D55F37D6167DBA5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DFAC24D1F44F8C1ACE9B5677B64B5733 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7B655603FB1089A5E2D28FCE12DF12F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A6CFF261D1E73E217CF6FB8748A68 /* AFHTTPRequestOperationManager.m */; };
 		C92FFCE3C06282C2D08A98524079060D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57320CE19CF3A790529B263314F155C1 /* Foundation.framework */; };
 		CEDFE191DF66B8884828359B3494F8E9 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8EEA25FEB35C35763A07C3270FA29E /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF051D17275C20E0FBF5736E3C8A0573 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AB590749B176737A34498301B0ED49 /* UIProgressView+AFNetworking.m */; };
+		CF38C2EB86FCB990BDAFD679AE23DAD7 /* HDHessianResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98380A45624C3B947635BAE3BF1981E2 /* HDHessianResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1CD80193235F94027F4182A056190A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F43BA98FCDCCF9D3898305E59F8C7A9 /* Security.framework */; };
-		D66CFB2BCA1B9A974B5FFCF28AC8FA25 /* BBSHessianDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4B78A5D2E96FD2E86BE26B834EAD0 /* BBSHessianDecoder.m */; };
 		D7C1594DC6A0E38E33E8971C288A9F82 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE6D86D04B261888A4F5860CCACD6CD /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CD72B21670DBBD911D44E21BBC4A60 /* BBSHessianCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3FADAAFBC7F1D50D782DC51AC5664D /* BBSHessianCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D86913E8F8A1CA01D792A1DFD3AE671C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3702D8A6064909CC2296A93EB9D97B /* AFHTTPSessionManager.m */; };
 		DB840EF5FD9645993A399CDE849E784C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2D925D6B2309DCEFA8CCFEA98F9639 /* AFURLResponseSerialization.m */; };
 		DF4112FFA156222BF7053EF22A8827B9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F5E83749A41DA7B2C1C43AE725FD7A /* AFHTTPRequestOperation.m */; };
+		DF8FB254DFC0FF54C49FA609AA32DCCE /* HaidoraNetworkHessianDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A70F727C9700E7E8ACE8541C910CE8 /* HaidoraNetworkHessianDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFC29AA19504EF95C8902348017273A8 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C498849FFBBF27AB7E7B808458C3DD2 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E13B595DBD5150D4B49772197400C99F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6CDB1F5B813E2847D14F8D6792BE7D /* MobileCoreServices.framework */; };
+		E3F6219A79A59E8FBA81F7248FABB9AD /* BBSHessianObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA3988B8C3364D3E62FC7428F8FFFB /* BBSHessianObjC.m */; };
+		E770D25AFA16AE44C42B5BA10EDACC82 /* HaidoraNetworkHessian-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FE4307F9B03094594FC776B03EE85C /* HaidoraNetworkHessian-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7FA21C38D6A1CB113BE2DA22E73B845 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8B3D8A0D448F3B48E1017DBE51982 /* UIAlertView+AFNetworking.m */; };
-		EE978AF0CA118E330468EF58443BA4A5 /* BBSHessianObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD5118C54E318F8D8BE0128AE6032AE /* BBSHessianObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB630CB46DA3D40C6E0DF65C74AD8067 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCB6990B1698BE86BCA822854DE47AE2 /* HDNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927884452E59795CE2672DEC5171640 /* HDNetworkConfig.m */; };
-		FE86E581276ADC0E1C523F588C9DC169 /* BBSHessianCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 0442B060D9FB6E116E5DCED66DB76CF1 /* BBSHessianCall.m */; };
+		F31AF9FDFA83475016A9679262DE95EC /* HDNetworkProxy+HDAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C53879C62FBF76F2B453E9D55BEFBA /* HDNetworkProxy+HDAFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		152757902B35E54CDF9B346C76B93A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D39BA7EDBD267C9A5E005300CA45F49;
+			remoteInfo = "HaidoraNetworkHessian-HaidoraNetworkHessian";
+		};
 		3822340ABE6068149F495F55BE7E5100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4227336C5AEE79F841B6A0476D2CBA0;
+			remoteGlobalIDString = 77790E55CF62ECDC0606FCBB5EB6F0FB;
 			remoteInfo = HaidoraNetworkHessian;
 		};
 		42A928223AE8379A411D1E5C5DFD94AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4227336C5AEE79F841B6A0476D2CBA0;
+			remoteGlobalIDString = 77790E55CF62ECDC0606FCBB5EB6F0FB;
 			remoteInfo = HaidoraNetworkHessian;
 		};
-		5FEEAE8D7B37DC494FFCB961C660EAF9 /* PBXContainerItemProxy */ = {
+		6C190276630B38FC9CA79BCC431DAAD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4878C70B21CA37D7CB8A476BF986741B;
-			remoteInfo = AFNetworking;
+			remoteGlobalIDString = C6EDA3D729BA5283D00E2F61AE233F84;
+			remoteInfo = HaidoraNetwork;
 		};
-		6C190276630B38FC9CA79BCC431DAAD6 /* PBXContainerItemProxy */ = {
+		71557E9313BBCD6FF929057AF02D19FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -158,19 +167,12 @@
 			remoteGlobalIDString = 9FA97969508F2F091A68D5A17567540A;
 			remoteInfo = "HaidoraNetwork-HaidoraNetwork";
 		};
-		D00737D9407852E2A0E2A0C1C177B70B /* PBXContainerItemProxy */ = {
+		D83A53E668392CFD1C3BE352779E14BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C6EDA3D729BA5283D00E2F61AE233F84;
-			remoteInfo = HaidoraNetwork;
-		};
-		D0F9F32D02857B2F2790A251382D7BC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9171BE5FC56CBB803B823D57891C1B7D;
-			remoteInfo = "HaidoraNetworkHessian-HaidoraNetworkHessian";
+			remoteGlobalIDString = 4878C70B21CA37D7CB8A476BF986741B;
+			remoteInfo = AFNetworking;
 		};
 		F61600C8A86ACDAAB40D514885D965E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -189,144 +191,146 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BBA3EEF4F474B7F3C0302B2952FC98 /* HDNetworkProxy+HDNetworkPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HDNetworkProxy+HDNetworkPrivate.h"; path = "Pod/Classes/HDNetworkProxy+HDNetworkPrivate.h"; sourceTree = "<group>"; };
 		03964E230FD9390CBFF9197579F420FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03BE732B39AAF82141495C63BFFD11E0 /* HaidoraNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraNetwork-umbrella.h"; sourceTree = "<group>"; };
-		0442B060D9FB6E116E5DCED66DB76CF1 /* BBSHessianCall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianCall.m; sourceTree = "<group>"; };
-		06F6E8265D3E29A7D9015D2A4185AD86 /* BBSHessianEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianEncoder.h; sourceTree = "<group>"; };
 		0AE6D86D04B261888A4F5860CCACD6CD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		0B3CCFF34177990A92C6CD9C4DE00E72 /* BBSHessianMapDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianMapDecoder.m; sourceTree = "<group>"; };
+		0BE5BECEC05E391A8FDE20D6411FEC75 /* HaidoraNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HaidoraNetwork.h; path = Pod/Classes/HaidoraNetwork.h; sourceTree = "<group>"; };
 		0ECB540B92909C9363F814718FA5F0CE /* HaidoraNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F0EB71A667E4DEDE339EB1519BE753F /* HDHessianRequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianRequestSerializer.m; sourceTree = "<group>"; };
-		10059BB1C3B96142744D40560E8DD635 /* BBSHessianEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianEncoder.m; sourceTree = "<group>"; };
+		0F88570D61735A06BEB7458F25533119 /* BBSHessianEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianEncoder.h; sourceTree = "<group>"; };
+		10E34103640CD8ABA0804C2544429BEB /* HDNetworkDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkDefines.h; path = Pod/Classes/HDNetworkDefines.h; sourceTree = "<group>"; };
 		11278F3A1E901363A0AF9D1857C1EC93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CE6C9A583F552FAE6BC9BE5B02840A /* HDHessianRequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianRequestSerializer.h; sourceTree = "<group>"; };
 		164B2D507488115F1F8AE8F89680B03D /* Pods-HaidoraNetworkHessian_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraNetworkHessian_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B6869BF54AE70DDFE9AC4D5576A99C6 /* HDHessianBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianBaseModel.m; sourceTree = "<group>"; };
+		18C53879C62FBF76F2B453E9D55BEFBA /* HDNetworkProxy+HDAFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HDNetworkProxy+HDAFNetworking.m"; path = "Pod/Classes/AFNetworking/HDNetworkProxy+HDAFNetworking.m"; sourceTree = "<group>"; };
 		1C665B546E79AE9BAD29AACD2C7C997C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		1C8EEA25FEB35C35763A07C3270FA29E /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
 		1D88A2B0DD4B157BA21AA9A89DBFABDC /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		1DC31C264285C0F7C8F317236B296497 /* HaidoraNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaidoraNetwork-dummy.m"; sourceTree = "<group>"; };
 		1E0A85ED23F746601F95B8F24BA7E1B9 /* Pods_HaidoraNetworkHessian_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraNetworkHessian_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E68CF5BBBBE3ECC2C191E70B70E722A /* HDNetworkProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDNetworkProxy.m; path = Pod/Classes/HDNetworkProxy.m; sourceTree = "<group>"; };
-		1EC3DD95FDF6E3003A0DF1AB61C98B43 /* HDNetworkProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkProxy.h; path = Pod/Classes/HDNetworkProxy.h; sourceTree = "<group>"; };
+		208D2BF16A568817403B6937B5374747 /* HDHessianRequestURLMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianRequestURLMapping.m; sourceTree = "<group>"; };
 		21A40E2C6C66F3F65E7CC26730A43D18 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		224DCA1D87E55407B8B561D8399C9B3C /* BBSHessianMapDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianMapDecoder.m; sourceTree = "<group>"; };
 		258D8F577714563D64C8769F6A0C1020 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		25BF4768AD1D35A22D647E20C6DC9D0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2603B0409376D755A8656BD8F73FCE54 /* Pods-HaidoraNetworkHessian_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraNetworkHessian_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2664A5451554C38D6F9CD95AD3BF5101 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		267C6CAB478CA65F4711C60D30A96ADE /* HaidoraNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraNetwork-prefix.pch"; sourceTree = "<group>"; };
 		288ACEF2D0CC35B1F48DC8EA9AE0D66A /* Pods-HaidoraNetworkHessian_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraNetworkHessian_Tests.modulemap"; sourceTree = "<group>"; };
+		2A4244C8990F3A3D548A00A361CCBC49 /* HDHessianBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianBaseModel.m; sourceTree = "<group>"; };
 		2B6CDB1F5B813E2847D14F8D6792BE7D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		2C08CEE13136E7C86773F6AF44BD70D1 /* HDHessianRequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianRequestSerializer.m; sourceTree = "<group>"; };
 		2D0F8D446041376836107780856E64DA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		2F98CA0DC2D063974A16B7CF4CC8C91B /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		347B7F82AFDA67B22174A14304E340CC /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		36DF33FABAE68B620E9654944DD272A0 /* HaidoraNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaidoraNetwork.xcconfig; sourceTree = "<group>"; };
 		391EB8C3DE720FE73AACF10D0CB10F9B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		3A6BE5CC6558BDD8D4EFB1A48BEDB13A /* BBSHessianCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianCall.h; sourceTree = "<group>"; };
-		3EA4B78A5D2E96FD2E86BE26B834EAD0 /* BBSHessianDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianDecoder.m; sourceTree = "<group>"; };
-		4226FA0DF96ACAAE087ADF145FE79249 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44B8C7C69EA3C2C3972A0742B206230D /* BBSHessianObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianObjC.m; sourceTree = "<group>"; };
-		46F24FB75D21A78FA45A69F9063AA35B /* BBSHessianObjCDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianObjCDefines.h; sourceTree = "<group>"; };
-		47AD257C6B33DC874693543E212F8CD7 /* BBSHessianResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianResult.m; sourceTree = "<group>"; };
-		49F27C147B8F8097632997F221335577 /* HDHessianRequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianRequestSerializer.h; sourceTree = "<group>"; };
-		4BE2E7B2850097E5D20540D32F3FA4E5 /* HDHessianRequest+HDPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDHessianRequest+HDPrivate.h"; sourceTree = "<group>"; };
 		4C498849FFBBF27AB7E7B808458C3DD2 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		4DA40063CB6EAC815D67CED2ECBC19DE /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		4EB8B3D8A0D448F3B48E1017DBE51982 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		50CEF9C65EC8E2D52B0D54BAC97C3946 /* BBSHessianResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianResult.m; sourceTree = "<group>"; };
 		5321ACA2E8DCBB4EBC35CDEAD3FECB6D /* Pods-HaidoraNetworkHessian_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraNetworkHessian_Example-umbrella.h"; sourceTree = "<group>"; };
+		53A70F727C9700E7E8ACE8541C910CE8 /* HaidoraNetworkHessianDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraNetworkHessianDefines.h; sourceTree = "<group>"; };
+		55FC00202BC06E5FA2EDEC2E6A7B88B6 /* BBSHessianObjCProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianObjCProtocol.h; sourceTree = "<group>"; };
 		57320CE19CF3A790529B263314F155C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57F33FFFB589BB1905A0ACA89539038F /* HDNetworkProxy+HDNetworkProxyUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HDNetworkProxy+HDNetworkProxyUtils.m"; path = "Pod/Classes/HDNetworkProxy+HDNetworkProxyUtils.m"; sourceTree = "<group>"; };
 		5BF23C3B112D8DD8079023F052862621 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C18624BD5E82FAE371A6BB936BED7E2 /* HaidoraNetworkHessian-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraNetworkHessian-prefix.pch"; sourceTree = "<group>"; };
-		5C206CE8C249452C771F39190DBD5080 /* HDHessianRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianRequest.h; sourceTree = "<group>"; };
-		5E73692B3696C19C36BD2B47C45E9F35 /* HDHessianRequest+HDPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDHessianRequest+HDPrivate.m"; sourceTree = "<group>"; };
+		5CAC63565BAA75E254029653AF0B1837 /* HDNetworkConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkConfig.h; path = Pod/Classes/HDNetworkConfig.h; sourceTree = "<group>"; };
 		5EE6C580E4746E4DB758735CE7769287 /* Pods-HaidoraNetworkHessian_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraNetworkHessian_Example.modulemap"; sourceTree = "<group>"; };
 		5F43BA98FCDCCF9D3898305E59F8C7A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		5FE1D000437BE6B20AB94F5F4286D210 /* HDHessianResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianResponseSerializer.h; sourceTree = "<group>"; };
+		6052FF375CB70504AA247D079843EA7F /* BBSHessianResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianResult.h; sourceTree = "<group>"; };
 		6088F2873E587E83D96D95E13E37E964 /* Pods_HaidoraNetworkHessian_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraNetworkHessian_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E1ECA99FCD94E375875AC70F3B90A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A3AD2C3460BD5F0E3BA1108D9DAF0C /* HDNetworkRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDNetworkRequest.m; path = Pod/Classes/HDNetworkRequest.m; sourceTree = "<group>"; };
+		651BC0E6AA02E3FC0115A3A62E362798 /* BBSHessianDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianDecoder.m; sourceTree = "<group>"; };
 		66A2812AA89B183A2AD6CD38AB31A20C /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		6FD5118C54E318F8D8BE0128AE6032AE /* BBSHessianObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianObjC.h; sourceTree = "<group>"; };
+		69F9BA0D239EEED3C16535FE6DDCE766 /* HDNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDNetworkConfig.m; path = Pod/Classes/HDNetworkConfig.m; sourceTree = "<group>"; };
 		727B5E76C6FD06E7634DD4F498ADFB98 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		736456342FF8CAF1AFC69F3C4E2D8ABB /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		7441AE51CCEFBDF0BB3BEC1D7799F742 /* HDNetworkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkRequest.h; path = Pod/Classes/HDNetworkRequest.h; sourceTree = "<group>"; };
 		74ED5468649AF707DD413983D38D73DE /* Pods-HaidoraNetworkHessian_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraNetworkHessian_Example-frameworks.sh"; sourceTree = "<group>"; };
 		75175E78E735BE1491ED22F4A7F6C7B8 /* HaidoraNetworkHessian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraNetworkHessian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76E67210A3D9CA372AFBDE65A673B9F8 /* HDNetworkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkRequest.h; path = Pod/Classes/HDNetworkRequest.h; sourceTree = "<group>"; };
 		79ABC6208BB3B6A7BDB9D50F43C97FDB /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		7B7E582F95ACA1DD6830CCBA7F90BE8F /* HaidoraNetworkHessian.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaidoraNetworkHessian.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DE8B63265CF64BC727EF7351AAEB46D /* HDNetworkProxy+HDNetworkProxyUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HDNetworkProxy+HDNetworkProxyUtils.h"; path = "Pod/Classes/HDNetworkProxy+HDNetworkProxyUtils.h"; sourceTree = "<group>"; };
-		7EEFB732E2EEA7685EC088C7EEA6FFD9 /* HDNetworkDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkDefines.h; path = Pod/Classes/HDNetworkDefines.h; sourceTree = "<group>"; };
+		7FA2DAA4FE6970C51E9E82BA5EC4E21C /* HaidoraNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HaidoraNetwork.modulemap; sourceTree = "<group>"; };
 		806622B8DBABD462B45394E2A4B1F193 /* HaidoraNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		808CB0581759FAEF00C9AAD990F4D3F1 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		809A6CFF261D1E73E217CF6FB8748A68 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		85B093043BCD6BC839D0681E5D0AC55E /* HaidoraNetworkHessianDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraNetworkHessianDefines.h; sourceTree = "<group>"; };
+		80FE0E370DFB945800FDC32AC2DA7BB4 /* HaidoraNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaidoraNetwork-dummy.m"; sourceTree = "<group>"; };
 		86DF558ECB3381FD0F9F0A9E8E6ACA17 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B8EC46D93F8B24CE985F6B470C4CC9 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		889128B73542FDD3857BFFE8EDD5CCB9 /* Pods-HaidoraNetworkHessian_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraNetworkHessian_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88FE4307F9B03094594FC776B03EE85C /* HaidoraNetworkHessian-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraNetworkHessian-umbrella.h"; sourceTree = "<group>"; };
 		898C184CB7331C7F31B9E686F76C0D1C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8A869DFEFEC6919420DF92520FA5C919 /* BBSHessianMapDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianMapDecoder.h; sourceTree = "<group>"; };
 		8C755DB2553D6C2EBC56E75C03D31F01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		8E23528516A27143BB7404B8758066D3 /* HaidoraNetworkHessian-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaidoraNetworkHessian-dummy.m"; sourceTree = "<group>"; };
 		8E3702D8A6064909CC2296A93EB9D97B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		8F094C08C5D8A47897D659CE6E218BD1 /* Pods-HaidoraNetworkHessian_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraNetworkHessian_Tests-resources.sh"; sourceTree = "<group>"; };
-		928B671E878E8E4E02DE5D5241B1F215 /* HaidoraNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HaidoraNetwork.h; path = Pod/Classes/HaidoraNetwork.h; sourceTree = "<group>"; };
+		93DA3988B8C3364D3E62FC7428F8FFFB /* BBSHessianObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianObjC.m; sourceTree = "<group>"; };
 		93F2632FE6F1460D818D49EC4517FA9E /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		954BF85874034C2F899FF3A096D3969D /* HDHessianBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianBaseModel.h; sourceTree = "<group>"; };
 		95E6F7FA934B6B225FF08C898E0FF9E5 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		9927884452E59795CE2672DEC5171640 /* HDNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDNetworkConfig.m; path = Pod/Classes/HDNetworkConfig.m; sourceTree = "<group>"; };
-		9D7D3A5E8092CDE51EE0A70111721694 /* HaidoraNetworkHessian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraNetworkHessian.h; sourceTree = "<group>"; };
+		95F20B278582D9AE4BC0927B31E3A824 /* HDHessianRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianRequest.m; sourceTree = "<group>"; };
+		98380A45624C3B947635BAE3BF1981E2 /* HDHessianResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianResponseSerializer.h; sourceTree = "<group>"; };
+		98F65472301883CDC6FFF305E62ACAA8 /* HDNetworkProxy+HDAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HDNetworkProxy+HDAFNetworking.h"; path = "Pod/Classes/AFNetworking/HDNetworkProxy+HDAFNetworking.h"; sourceTree = "<group>"; };
+		9B3FADAAFBC7F1D50D782DC51AC5664D /* BBSHessianCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianCall.h; sourceTree = "<group>"; };
 		9DDCF657EB5233CBC2642EB02BA0C186 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		A150EB92F518743FCFD3AD12C19427AF /* HDNetworkProxy+HDNetworkPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HDNetworkProxy+HDNetworkPrivate.m"; path = "Pod/Classes/HDNetworkProxy+HDNetworkPrivate.m"; sourceTree = "<group>"; };
+		9F016FD1E7AE66318165CC2A8E09E33D /* HaidoraNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraNetwork-prefix.pch"; sourceTree = "<group>"; };
+		A06A69960A9153478EFD3EC421082DD2 /* BBSHessianDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianDecoder.h; sourceTree = "<group>"; };
+		A712FFAD23EE9DDC6B319DC1C11C9C39 /* BBSHessianEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianEncoder.m; sourceTree = "<group>"; };
 		A7BAE4F1430C9E1A853FB555E9A2E265 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		A7BFB0CE9086F1AA274EDD15B73B3936 /* BBSHessianObjCProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianObjCProtocol.h; sourceTree = "<group>"; };
 		AAD18288C5F98F31392B0BEA46129860 /* HaidoraNetworkHessian.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HaidoraNetworkHessian.modulemap; sourceTree = "<group>"; };
 		AC2BCE1457848EF97AE8B6F59BA1B931 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		ACD06DE6F543FA40B037DAD003BAED5A /* HaidoraNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraNetwork-umbrella.h"; sourceTree = "<group>"; };
+		B22BE576675A2BB14533994A5EB807E0 /* HaidoraNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaidoraNetwork.xcconfig; sourceTree = "<group>"; };
 		B286A8BFCA557C698BCD14A585161F88 /* Pods-HaidoraNetworkHessian_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraNetworkHessian_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B48F64F7CD5F922DF0A2EDB6E0E22DCD /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
 		B5E7F4551B07C4D40405B5377F4D55CE /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		B66A5D7149A4A928821BACDF8581B9F5 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		B6DB610AEA052E3CE836047D2FB5FF95 /* HDHessianRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianRequest.h; sourceTree = "<group>"; };
 		B9C88855BD2E74D20B90463361C5BA30 /* Pods-HaidoraNetworkHessian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraNetworkHessian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA499D9F9963C241DAD3F6B5518E9E17 /* BBSHessianResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianResult.h; sourceTree = "<group>"; };
+		B9C961C520DD4B89BEA9C04FCB01B0F9 /* HDHessianRequest+HDPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDHessianRequest+HDPrivate.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAE9166FC558D787F2E6248BA40CC36F /* Pods-HaidoraNetworkHessian_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraNetworkHessian_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BB0FC080C0D4332CAAC86AF062B5DE63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		BB48D30506245C1E6FEDB315757CAE51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD121246101D67719583F989E5E08C22 /* HDNetworkProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDNetworkProxy.m; path = Pod/Classes/HDNetworkProxy.m; sourceTree = "<group>"; };
 		BD12D7C3EA762793BF55EEC66DBBA92A /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		C0E31A8C6044BAF28AC5D24D6AA73186 /* HDNetworkProxy+HDNetworkProxyUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HDNetworkProxy+HDNetworkProxyUtils.m"; path = "Pod/Classes/HDNetworkProxy+HDNetworkProxyUtils.m"; sourceTree = "<group>"; };
-		C1D821D8608EB651DD2176FFB86B2303 /* HDHessianBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianBaseModel.h; sourceTree = "<group>"; };
 		C1F5E83749A41DA7B2C1C43AE725FD7A /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaidoraNetworkHessian.xcconfig; sourceTree = "<group>"; };
 		C36652BF0FEE159D67D26D56F43560D0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		C3AB590749B176737A34498301B0ED49 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		C81491076EC1AAFEC587B3C6B1262ACD /* Pods-HaidoraNetworkHessian_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraNetworkHessian_Tests-dummy.m"; sourceTree = "<group>"; };
 		CA18BBA8C27C6CA2FC5EC88A2C56D8D3 /* Pods-HaidoraNetworkHessian_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraNetworkHessian_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB15A3CF94F5A028AFD4740216B7EBE2 /* HDNetworkProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkProxy.h; path = Pod/Classes/HDNetworkProxy.h; sourceTree = "<group>"; };
+		CBB3E61FDE54A3C4726D1CBE69EC2499 /* HDNetworkProxy+HDNetworkProxyUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HDNetworkProxy+HDNetworkProxyUtils.h"; path = "Pod/Classes/HDNetworkProxy+HDNetworkProxyUtils.h"; sourceTree = "<group>"; };
 		D0277B0CC96C060485CE098124B57CB3 /* Pods-HaidoraNetworkHessian_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraNetworkHessian_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D04CB1A02CDFD0E6E32D4294872F8203 /* BBSHessianDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianDecoder.h; sourceTree = "<group>"; };
-		D707AD3951D16397DF5CDAE8353C8BA3 /* BBSHessianMapDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianMapDecoder.h; sourceTree = "<group>"; };
+		D2EFCB67265E8B9643023E5D1517D1D8 /* BBSHessianObjCDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianObjCDefines.h; sourceTree = "<group>"; };
+		D58888F782ABE67BC4A79D535CBCF187 /* HDHessianResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianResponseSerializer.m; sourceTree = "<group>"; };
 		D7B218E9E8365187EE7825592FC570D8 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		DB6CA72CF6A7FD1E19C349EF40D6026A /* Pods-HaidoraNetworkHessian_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraNetworkHessian_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DBD86500FC99AE3513C878B732A11E4E /* HaidoraNetwork.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaidoraNetwork.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEC6BE3CAF3A2BC8EAE9CDB676BB5271 /* HDHessianResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianResponseSerializer.m; sourceTree = "<group>"; };
+		DCAA1545E81C0ECB147343F5A418CE25 /* HaidoraNetworkHessian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraNetworkHessian.h; sourceTree = "<group>"; };
 		DFAC24D1F44F8C1ACE9B5677B64B5733 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		E0FBF82D6995B88C5599BC395B6E863D /* BBSHessianObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSHessianObjC.h; sourceTree = "<group>"; };
 		E3DDE120EEBA7A909E60703FDFC2AF69 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		E9CC3D89A27AEEF22D2704CB436F7324 /* HaidoraNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HaidoraNetwork.modulemap; sourceTree = "<group>"; };
-		EA32D231CD07BE6B6A6B28EA4EBE77B7 /* HDHessianRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDHessianRequest.m; sourceTree = "<group>"; };
+		E47D42B1E38AC051F84BFDF1E40D64B3 /* HDHessianRequest+HDPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDHessianRequest+HDPrivate.h"; sourceTree = "<group>"; };
+		E7122DF6FCF6BD01433EF56C3E52F633 /* BBSHessianCall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSHessianCall.m; sourceTree = "<group>"; };
 		EB630CB46DA3D40C6E0DF65C74AD8067 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		EBAD8B6349A26EC36DDB53D614ED3C3F /* Pods-HaidoraNetworkHessian_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraNetworkHessian_Example-dummy.m"; sourceTree = "<group>"; };
 		EE2D925D6B2309DCEFA8CCFEA98F9639 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		F1394B5B586FF5147CF04211752F2123 /* Pods-HaidoraNetworkHessian_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraNetworkHessian_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F4C65D6E89FBE73211C02782223AC3B3 /* HDNetworkConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDNetworkConfig.h; path = Pod/Classes/HDNetworkConfig.h; sourceTree = "<group>"; };
+		F2BF2C492D4E9B5D44C3619660329AAA /* HDHessianRequestURLMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDHessianRequestURLMapping.h; sourceTree = "<group>"; };
 		F67F4246D5F34FA097C44E012389FD23 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		F7AB473A47764FCF61CE45D4DE4829BE /* Pods-HaidoraNetworkHessian_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraNetworkHessian_Example-resources.sh"; sourceTree = "<group>"; };
-		FDDB6B10F378E7A539E5F5DFDA2981DE /* HDNetworkRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDNetworkRequest.m; path = Pod/Classes/HDNetworkRequest.m; sourceTree = "<group>"; };
 		FE87549D032C59B87020A345AAD9B07D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		142FD9925D890380C199DDC8F1E10DFE /* Frameworks */ = {
+		14F9A6FBE3406FC367A53AA2F5C65009 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D6CCE86EF6C93E5644C65910CFFA26 /* AFNetworking.framework in Frameworks */,
-				156CCF5D288311BFF5F74B6810516F2C /* Foundation.framework in Frameworks */,
-				93EF6BC0D63E772FA8A96EDA6B439724 /* HaidoraNetwork.framework in Frameworks */,
+				169063AC23567DF0DFAF50CAADCA00D6 /* AFNetworking.framework in Frameworks */,
+				99555D01F1481DA3DC0A98EC3DE88737 /* Foundation.framework in Frameworks */,
+				B8551E6E809AA8009181451E1E23179B /* HaidoraNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +351,13 @@
 				E13B595DBD5150D4B49772197400C99F /* MobileCoreServices.framework in Frameworks */,
 				D1CD80193235F94027F4182A056190A6 /* Security.framework in Frameworks */,
 				3A7FE81FF3C97DDFA9F5D7B692369683 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C2A942A57EDC47BDD405C43CE69419F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,36 +385,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F369BBEE1244E66E7097B96D5F1A4959 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		110FDEFCF6B218DBAA2EE0B85A9C5583 /* HaidoraNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				928B671E878E8E4E02DE5D5241B1F215 /* HaidoraNetwork.h */,
-				F4C65D6E89FBE73211C02782223AC3B3 /* HDNetworkConfig.h */,
-				9927884452E59795CE2672DEC5171640 /* HDNetworkConfig.m */,
-				7EEFB732E2EEA7685EC088C7EEA6FFD9 /* HDNetworkDefines.h */,
-				1EC3DD95FDF6E3003A0DF1AB61C98B43 /* HDNetworkProxy.h */,
-				1E68CF5BBBBE3ECC2C191E70B70E722A /* HDNetworkProxy.m */,
-				00BBA3EEF4F474B7F3C0302B2952FC98 /* HDNetworkProxy+HDNetworkPrivate.h */,
-				A150EB92F518743FCFD3AD12C19427AF /* HDNetworkProxy+HDNetworkPrivate.m */,
-				7DE8B63265CF64BC727EF7351AAEB46D /* HDNetworkProxy+HDNetworkProxyUtils.h */,
-				C0E31A8C6044BAF28AC5D24D6AA73186 /* HDNetworkProxy+HDNetworkProxyUtils.m */,
-				76E67210A3D9CA372AFBDE65A673B9F8 /* HDNetworkRequest.h */,
-				FDDB6B10F378E7A539E5F5DFDA2981DE /* HDNetworkRequest.m */,
-				83E05DFD88DF12680CFBCF3A7F51F5CE /* Support Files */,
-			);
-			path = HaidoraNetwork;
-			sourceTree = "<group>";
-		};
 		2259F58959298AC9497D303E8C570723 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,9 +404,23 @@
 			isa = PBXGroup;
 			children = (
 				A3D4AAA0CF289024E616220178BDF447 /* AFNetworking */,
-				110FDEFCF6B218DBAA2EE0B85A9C5583 /* HaidoraNetwork */,
+				681DB82937767A6A0B11C7A78C8A40B9 /* HaidoraNetwork */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FCFB1EA991EA09D4EDB5EB27E378B72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA2DAA4FE6970C51E9E82BA5EC4E21C /* HaidoraNetwork.modulemap */,
+				B22BE576675A2BB14533994A5EB807E0 /* HaidoraNetwork.xcconfig */,
+				80FE0E370DFB945800FDC32AC2DA7BB4 /* HaidoraNetwork-dummy.m */,
+				9F016FD1E7AE66318165CC2A8E09E33D /* HaidoraNetwork-prefix.pch */,
+				ACD06DE6F543FA40B037DAD003BAED5A /* HaidoraNetwork-umbrella.h */,
+				60E1ECA99FCD94E375875AC70F3B90A1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HaidoraNetwork";
 			sourceTree = "<group>";
 		};
 		4F69C06D90D5990C2A0E646D2D51304A /* UIKit */ = {
@@ -478,6 +476,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		681DB82937767A6A0B11C7A78C8A40B9 /* HaidoraNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				0BE5BECEC05E391A8FDE20D6411FEC75 /* HaidoraNetwork.h */,
+				5CAC63565BAA75E254029653AF0B1837 /* HDNetworkConfig.h */,
+				69F9BA0D239EEED3C16535FE6DDCE766 /* HDNetworkConfig.m */,
+				10E34103640CD8ABA0804C2544429BEB /* HDNetworkDefines.h */,
+				CB15A3CF94F5A028AFD4740216B7EBE2 /* HDNetworkProxy.h */,
+				BD121246101D67719583F989E5E08C22 /* HDNetworkProxy.m */,
+				98F65472301883CDC6FFF305E62ACAA8 /* HDNetworkProxy+HDAFNetworking.h */,
+				18C53879C62FBF76F2B453E9D55BEFBA /* HDNetworkProxy+HDAFNetworking.m */,
+				CBB3E61FDE54A3C4726D1CBE69EC2499 /* HDNetworkProxy+HDNetworkProxyUtils.h */,
+				57F33FFFB589BB1905A0ACA89539038F /* HDNetworkProxy+HDNetworkProxyUtils.m */,
+				7441AE51CCEFBDF0BB3BEC1D7799F742 /* HDNetworkRequest.h */,
+				62A3AD2C3460BD5F0E3BA1108D9DAF0C /* HDNetworkRequest.m */,
+				3FCFB1EA991EA09D4EDB5EB27E378B72 /* Support Files */,
+			);
+			path = HaidoraNetwork;
+			sourceTree = "<group>";
+		};
 		6BC03F8B89DCAA258C842A93CD916508 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,6 +523,27 @@
 			name = NSURLConnection;
 			sourceTree = "<group>";
 		};
+		78889A888ABF08FC6F679ACEDD9FD714 /* BBSHessian */ = {
+			isa = PBXGroup;
+			children = (
+				9B3FADAAFBC7F1D50D782DC51AC5664D /* BBSHessianCall.h */,
+				E7122DF6FCF6BD01433EF56C3E52F633 /* BBSHessianCall.m */,
+				A06A69960A9153478EFD3EC421082DD2 /* BBSHessianDecoder.h */,
+				651BC0E6AA02E3FC0115A3A62E362798 /* BBSHessianDecoder.m */,
+				0F88570D61735A06BEB7458F25533119 /* BBSHessianEncoder.h */,
+				A712FFAD23EE9DDC6B319DC1C11C9C39 /* BBSHessianEncoder.m */,
+				8A869DFEFEC6919420DF92520FA5C919 /* BBSHessianMapDecoder.h */,
+				0B3CCFF34177990A92C6CD9C4DE00E72 /* BBSHessianMapDecoder.m */,
+				E0FBF82D6995B88C5599BC395B6E863D /* BBSHessianObjC.h */,
+				93DA3988B8C3364D3E62FC7428F8FFFB /* BBSHessianObjC.m */,
+				D2EFCB67265E8B9643023E5D1517D1D8 /* BBSHessianObjCDefines.h */,
+				55FC00202BC06E5FA2EDEC2E6A7B88B6 /* BBSHessianObjCProtocol.h */,
+				6052FF375CB70504AA247D079843EA7F /* BBSHessianResult.h */,
+				50CEF9C65EC8E2D52B0D54BAC97C3946 /* BBSHessianResult.m */,
+			);
+			path = BBSHessian;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -515,28 +554,6 @@
 				8EB113671431E0F2A524A203CA590051 /* Products */,
 				600C5B5AAC4258FB57C9085049975BBE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		824F869202CE150D85749AA532F4C93E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C91CE5312BDD6E99E5A054B9608FDE33 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		83E05DFD88DF12680CFBCF3A7F51F5CE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E9CC3D89A27AEEF22D2704CB436F7324 /* HaidoraNetwork.modulemap */,
-				36DF33FABAE68B620E9654944DD272A0 /* HaidoraNetwork.xcconfig */,
-				1DC31C264285C0F7C8F317236B296497 /* HaidoraNetwork-dummy.m */,
-				267C6CAB478CA65F4711C60D30A96ADE /* HaidoraNetwork-prefix.pch */,
-				03BE732B39AAF82141495C63BFFD11E0 /* HaidoraNetwork-umbrella.h */,
-				4226FA0DF96ACAAE087ADF145FE79249 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HaidoraNetwork";
 			sourceTree = "<group>";
 		};
 		874B2CFB55D55D19735EDE61C56B0386 /* Frameworks */ = {
@@ -592,6 +609,28 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
+		9D4EB82166FE4D23785C0DA6283895C1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA1545E81C0ECB147343F5A418CE25 /* HaidoraNetworkHessian.h */,
+				53A70F727C9700E7E8ACE8541C910CE8 /* HaidoraNetworkHessianDefines.h */,
+				954BF85874034C2F899FF3A096D3969D /* HDHessianBaseModel.h */,
+				2A4244C8990F3A3D548A00A361CCBC49 /* HDHessianBaseModel.m */,
+				B6DB610AEA052E3CE836047D2FB5FF95 /* HDHessianRequest.h */,
+				95F20B278582D9AE4BC0927B31E3A824 /* HDHessianRequest.m */,
+				E47D42B1E38AC051F84BFDF1E40D64B3 /* HDHessianRequest+HDPrivate.h */,
+				B9C961C520DD4B89BEA9C04FCB01B0F9 /* HDHessianRequest+HDPrivate.m */,
+				15CE6C9A583F552FAE6BC9BE5B02840A /* HDHessianRequestSerializer.h */,
+				2C08CEE13136E7C86773F6AF44BD70D1 /* HDHessianRequestSerializer.m */,
+				F2BF2C492D4E9B5D44C3619660329AAA /* HDHessianRequestURLMapping.h */,
+				208D2BF16A568817403B6937B5374747 /* HDHessianRequestURLMapping.m */,
+				98380A45624C3B947635BAE3BF1981E2 /* HDHessianResponseSerializer.h */,
+				D58888F782ABE67BC4A79D535CBCF187 /* HDHessianResponseSerializer.m */,
+				78889A888ABF08FC6F679ACEDD9FD714 /* BBSHessian */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A3D4AAA0CF289024E616220178BDF447 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -605,6 +644,14 @@
 				4F69C06D90D5990C2A0E646D2D51304A /* UIKit */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A5422AAD2E03F64418AA8B417135997A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D4EB82166FE4D23785C0DA6283895C1 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		ADB333E023925B255D9257B51E7FE9D2 /* Pods-HaidoraNetworkHessian_Tests */ = {
@@ -623,47 +670,6 @@
 			);
 			name = "Pods-HaidoraNetworkHessian_Tests";
 			path = "Target Support Files/Pods-HaidoraNetworkHessian_Tests";
-			sourceTree = "<group>";
-		};
-		C91CE5312BDD6E99E5A054B9608FDE33 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9D7D3A5E8092CDE51EE0A70111721694 /* HaidoraNetworkHessian.h */,
-				85B093043BCD6BC839D0681E5D0AC55E /* HaidoraNetworkHessianDefines.h */,
-				C1D821D8608EB651DD2176FFB86B2303 /* HDHessianBaseModel.h */,
-				1B6869BF54AE70DDFE9AC4D5576A99C6 /* HDHessianBaseModel.m */,
-				5C206CE8C249452C771F39190DBD5080 /* HDHessianRequest.h */,
-				EA32D231CD07BE6B6A6B28EA4EBE77B7 /* HDHessianRequest.m */,
-				4BE2E7B2850097E5D20540D32F3FA4E5 /* HDHessianRequest+HDPrivate.h */,
-				5E73692B3696C19C36BD2B47C45E9F35 /* HDHessianRequest+HDPrivate.m */,
-				49F27C147B8F8097632997F221335577 /* HDHessianRequestSerializer.h */,
-				0F0EB71A667E4DEDE339EB1519BE753F /* HDHessianRequestSerializer.m */,
-				5FE1D000437BE6B20AB94F5F4286D210 /* HDHessianResponseSerializer.h */,
-				DEC6BE3CAF3A2BC8EAE9CDB676BB5271 /* HDHessianResponseSerializer.m */,
-				C96C42972637461015B2ACB1A7ACF9D6 /* BBSHessian */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C96C42972637461015B2ACB1A7ACF9D6 /* BBSHessian */ = {
-			isa = PBXGroup;
-			children = (
-				3A6BE5CC6558BDD8D4EFB1A48BEDB13A /* BBSHessianCall.h */,
-				0442B060D9FB6E116E5DCED66DB76CF1 /* BBSHessianCall.m */,
-				D04CB1A02CDFD0E6E32D4294872F8203 /* BBSHessianDecoder.h */,
-				3EA4B78A5D2E96FD2E86BE26B834EAD0 /* BBSHessianDecoder.m */,
-				06F6E8265D3E29A7D9015D2A4185AD86 /* BBSHessianEncoder.h */,
-				10059BB1C3B96142744D40560E8DD635 /* BBSHessianEncoder.m */,
-				D707AD3951D16397DF5CDAE8353C8BA3 /* BBSHessianMapDecoder.h */,
-				224DCA1D87E55407B8B561D8399C9B3C /* BBSHessianMapDecoder.m */,
-				6FD5118C54E318F8D8BE0128AE6032AE /* BBSHessianObjC.h */,
-				44B8C7C69EA3C2C3972A0742B206230D /* BBSHessianObjC.m */,
-				46F24FB75D21A78FA45A69F9063AA35B /* BBSHessianObjCDefines.h */,
-				A7BFB0CE9086F1AA274EDD15B73B3936 /* BBSHessianObjCProtocol.h */,
-				BA499D9F9963C241DAD3F6B5518E9E17 /* BBSHessianResult.h */,
-				47AD257C6B33DC874693543E212F8CD7 /* BBSHessianResult.m */,
-			);
-			path = BBSHessian;
 			sourceTree = "<group>";
 		};
 		E26D55B18BE7D99F2AA93A5413301935 /* Reachability */ = {
@@ -701,7 +707,7 @@
 		FBB3EAB6E5F7DE02C28503A87729C91B /* HaidoraNetworkHessian */ = {
 			isa = PBXGroup;
 			children = (
-				824F869202CE150D85749AA532F4C93E /* Pod */,
+				A5422AAD2E03F64418AA8B417135997A /* Pod */,
 				6BC03F8B89DCAA258C842A93CD916508 /* Support Files */,
 			);
 			name = HaidoraNetworkHessian;
@@ -711,29 +717,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C7231F81DBD8827FF9B1565828631BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C2AD1DA1A8509A112EC2CF2A0951926 /* BBSHessianCall.h in Headers */,
-				1F00B09A632CE2B444C6FC00D9CD3E81 /* BBSHessianDecoder.h in Headers */,
-				68EE200B1EBAD0278ECF387DEB0D40C8 /* BBSHessianEncoder.h in Headers */,
-				225E8573A861E5D748E20F0AB01B8FB1 /* BBSHessianMapDecoder.h in Headers */,
-				EE978AF0CA118E330468EF58443BA4A5 /* BBSHessianObjC.h in Headers */,
-				B8910DB4EF18C58461F86714C4CC952D /* BBSHessianObjCDefines.h in Headers */,
-				625AA168580102721ADE479685344176 /* BBSHessianObjCProtocol.h in Headers */,
-				255F74CE1C76C6BA84A97B62FDC06D76 /* BBSHessianResult.h in Headers */,
-				24D1461CB113D3EB14C5F3E012D89102 /* HaidoraNetworkHessian-umbrella.h in Headers */,
-				718A0F1B3191BBA9F6FFB708F34E5FA8 /* HaidoraNetworkHessian.h in Headers */,
-				783D82590C53CF5E9438E3373F8CCC75 /* HaidoraNetworkHessianDefines.h in Headers */,
-				1E5439DAC56C3DEEA37E0E5505F0F852 /* HDHessianBaseModel.h in Headers */,
-				70EDC4E6BF6E7EF35FE6A28EE7FF2CC8 /* HDHessianRequest+HDPrivate.h in Headers */,
-				7CD3C8B07B3EA0DBFAAF904C2FE2E639 /* HDHessianRequest.h in Headers */,
-				B22E4A96188758F5DE68460F03BA9EB4 /* HDHessianRequestSerializer.h in Headers */,
-				5FC8AA460FCACE440198790D741BE78C /* HDHessianResponseSerializer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		12B6E4214ACC6D0F67A8D8CEC65A0347 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -742,18 +725,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E639AC3CECB13518CA8D8EB015F7427 /* Headers */ = {
+		6D0BDEC71F83B3A92A3430A2DE558138 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1F09BB3CFCBFC1C717B8B9E29C6E41 /* HaidoraNetwork-umbrella.h in Headers */,
-				9CA4B3561B95EC9D9B1B5F88D13A3E5F /* HaidoraNetwork.h in Headers */,
-				A9AA39AB910BA7441E4C92C073CB3BF6 /* HDNetworkConfig.h in Headers */,
-				C070F0AA39BFCF55C4270810E2FD0B2F /* HDNetworkDefines.h in Headers */,
-				879D6DCD6EB06628D3B9B85A3DCD8ED7 /* HDNetworkProxy+HDNetworkPrivate.h in Headers */,
-				995FAD3E2ABEDFEA1238B95505DB0BD0 /* HDNetworkProxy+HDNetworkProxyUtils.h in Headers */,
-				32EEA844FE6380DF03E39E6B43B92FDC /* HDNetworkProxy.h in Headers */,
-				BA472E57A965F0F509DC79DAD893BBB6 /* HDNetworkRequest.h in Headers */,
+				1818949B9C176C2C33E66D4B452D8232 /* HaidoraNetwork-umbrella.h in Headers */,
+				64EB053FD1F22FD64DF1EEFBA286DED8 /* HaidoraNetwork.h in Headers */,
+				8C46F09497BAC6FFBEC356CDFAF5675A /* HDNetworkConfig.h in Headers */,
+				8E5F08AAB216BB42892F43C0C4188615 /* HDNetworkDefines.h in Headers */,
+				4CFCC2ABB9EF8320813674E0E6353BAA /* HDNetworkProxy+HDAFNetworking.h in Headers */,
+				5D63E75E867D0DE0D43955A9BCC773D0 /* HDNetworkProxy+HDNetworkProxyUtils.h in Headers */,
+				AFB12CD70826B5366EA759CD15FF4A65 /* HDNetworkProxy.h in Headers */,
+				4238927CBE66C822169C8ACDA62A40AC /* HDNetworkRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,9 +776,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F428362F11DFEB37D12C4EE7421B3DC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CD72B21670DBBD911D44E21BBC4A60 /* BBSHessianCall.h in Headers */,
+				379DBEC2E14E776BF153FD42B50ABCAD /* BBSHessianDecoder.h in Headers */,
+				13F3AC8928EA29F81C4B89F06C7151A7 /* BBSHessianEncoder.h in Headers */,
+				9A83FB58EE1C4108044F11B3613CBC1D /* BBSHessianMapDecoder.h in Headers */,
+				6D82D78C3B379F79BF4EAB56161CF176 /* BBSHessianObjC.h in Headers */,
+				58BFB849EC303A2F210A68689A74E401 /* BBSHessianObjCDefines.h in Headers */,
+				97FAD4864DD6857C4275B9AA1D99EB8A /* BBSHessianObjCProtocol.h in Headers */,
+				6F2470B7F3052DD6846ABC7841494F24 /* BBSHessianResult.h in Headers */,
+				E770D25AFA16AE44C42B5BA10EDACC82 /* HaidoraNetworkHessian-umbrella.h in Headers */,
+				700EC25943C285518408FB3681908D1B /* HaidoraNetworkHessian.h in Headers */,
+				DF8FB254DFC0FF54C49FA609AA32DCCE /* HaidoraNetworkHessianDefines.h in Headers */,
+				B90A9A375DFCDFA8E9C24DC11F818590 /* HDHessianBaseModel.h in Headers */,
+				5929F3E2629BB7BF29E13146DF6F33FB /* HDHessianRequest+HDPrivate.h in Headers */,
+				7E4D15C012A69BB595B91DB9E6249769 /* HDHessianRequest.h in Headers */,
+				621313239AE93C54BFD67E2178D14ED5 /* HDHessianRequestSerializer.h in Headers */,
+				A0B9FC1B86C27674A0B4DF517B65F299 /* HDHessianRequestURLMapping.h in Headers */,
+				CF38C2EB86FCB990BDAFD679AE23DAD7 /* HDHessianResponseSerializer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2D39BA7EDBD267C9A5E005300CA45F49 /* HaidoraNetworkHessian-HaidoraNetworkHessian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0659598A461E0988E2FF55895EE2A40 /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian-HaidoraNetworkHessian" */;
+			buildPhases = (
+				7479226F50836F0A48D2A345264EAC96 /* Sources */,
+				7C2A942A57EDC47BDD405C43CE69419F /* Frameworks */,
+				23F455215FE6B9FDF576FC6E2F49A0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HaidoraNetworkHessian-HaidoraNetworkHessian";
+			productName = "HaidoraNetworkHessian-HaidoraNetworkHessian";
+			productReference = 7B7E582F95ACA1DD6830CCBA7F90BE8F /* HaidoraNetworkHessian.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCFA04D9F87841983F47B020C3F295D0 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
@@ -813,22 +837,26 @@
 			productReference = 5BF23C3B112D8DD8079023F052862621 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9171BE5FC56CBB803B823D57891C1B7D /* HaidoraNetworkHessian-HaidoraNetworkHessian */ = {
+		77790E55CF62ECDC0606FCBB5EB6F0FB /* HaidoraNetworkHessian */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4574596BC55793D63B657C1BCD93F310 /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian-HaidoraNetworkHessian" */;
+			buildConfigurationList = 7CE0A981FBC324AC55142F7683BAF099 /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian" */;
 			buildPhases = (
-				D7D7A412843760745E8131FCF50AD41F /* Sources */,
-				F369BBEE1244E66E7097B96D5F1A4959 /* Frameworks */,
-				661E6D241E889F20920E560289F98CB0 /* Resources */,
+				7DA9B75468544AD9593861D8C5AA2893 /* Sources */,
+				14F9A6FBE3406FC367A53AA2F5C65009 /* Frameworks */,
+				ED7B5DBB8BF0BE6D073A7D98CAF73E63 /* Resources */,
+				F428362F11DFEB37D12C4EE7421B3DC2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C869A24CBB731D419CCFFC5E67BF02B0 /* PBXTargetDependency */,
+				1DCCE0447C0FD4CCC026391943A0BE4F /* PBXTargetDependency */,
+				375B2AA7D30836750EACF2354E1B75D4 /* PBXTargetDependency */,
 			);
-			name = "HaidoraNetworkHessian-HaidoraNetworkHessian";
-			productName = "HaidoraNetworkHessian-HaidoraNetworkHessian";
-			productReference = 7B7E582F95ACA1DD6830CCBA7F90BE8F /* HaidoraNetworkHessian.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = HaidoraNetworkHessian;
+			productName = HaidoraNetworkHessian;
+			productReference = 75175E78E735BE1491ED22F4A7F6C7B8 /* HaidoraNetworkHessian.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		9FA97969508F2F091A68D5A17567540A /* HaidoraNetwork-HaidoraNetwork */ = {
 			isa = PBXNativeTarget;
@@ -847,35 +875,14 @@
 			productReference = DBD86500FC99AE3513C878B732A11E4E /* HaidoraNetwork.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A4227336C5AEE79F841B6A0476D2CBA0 /* HaidoraNetworkHessian */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3B2EA5A3BE97A0CD61E864EC603CB7D /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian" */;
-			buildPhases = (
-				B11CEEC0B01E2371FF840819D617CD45 /* Sources */,
-				142FD9925D890380C199DDC8F1E10DFE /* Frameworks */,
-				71D54CCD507B3DB4A6B0F461A010FF53 /* Resources */,
-				0C7231F81DBD8827FF9B1565828631BD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F61D967653A01E797D52F60ED3B20C2B /* PBXTargetDependency */,
-				E5207EB5D70A5EFB15E1F023E82FB104 /* PBXTargetDependency */,
-				9B0C1ECE926008BCA5EF719ECFA6422F /* PBXTargetDependency */,
-			);
-			name = HaidoraNetworkHessian;
-			productName = HaidoraNetworkHessian;
-			productReference = 75175E78E735BE1491ED22F4A7F6C7B8 /* HaidoraNetworkHessian.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		C6EDA3D729BA5283D00E2F61AE233F84 /* HaidoraNetwork */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 748EBC1823A3D09ACC6F1367F51D25B7 /* Build configuration list for PBXNativeTarget "HaidoraNetwork" */;
 			buildPhases = (
-				B7C5190F4CDDFF48DF135B4D53449B42 /* Sources */,
+				C3070DDF7AEDEF199E1687E673EF4A60 /* Sources */,
 				AB480B982B2327C03FF40A0D570033B6 /* Frameworks */,
 				17D1D2A5FE4A144CE4BCEF7DC9780B65 /* Resources */,
-				6E639AC3CECB13518CA8D8EB015F7427 /* Headers */,
+				6D0BDEC71F83B3A92A3430A2DE558138 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -952,8 +959,8 @@
 				4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */,
 				C6EDA3D729BA5283D00E2F61AE233F84 /* HaidoraNetwork */,
 				9FA97969508F2F091A68D5A17567540A /* HaidoraNetwork-HaidoraNetwork */,
-				A4227336C5AEE79F841B6A0476D2CBA0 /* HaidoraNetworkHessian */,
-				9171BE5FC56CBB803B823D57891C1B7D /* HaidoraNetworkHessian-HaidoraNetworkHessian */,
+				77790E55CF62ECDC0606FCBB5EB6F0FB /* HaidoraNetworkHessian */,
+				2D39BA7EDBD267C9A5E005300CA45F49 /* HaidoraNetworkHessian-HaidoraNetworkHessian */,
 				E4256D03A078E266FFB94FB5864C3274 /* Pods-HaidoraNetworkHessian_Example */,
 				E470156ADE65FF5EB4D78BAE59F3F16A /* Pods-HaidoraNetworkHessian_Tests */,
 			);
@@ -976,18 +983,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		661E6D241E889F20920E560289F98CB0 /* Resources */ = {
+		23F455215FE6B9FDF576FC6E2F49A0E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71D54CCD507B3DB4A6B0F461A010FF53 /* Resources */ = {
+		ED7B5DBB8BF0BE6D073A7D98CAF73E63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55023124BF390552B1BED53BE84716C8 /* HaidoraNetworkHessian.bundle in Resources */,
+				4C0137310001F68C4F5D7F2477277079 /* HaidoraNetworkHessian.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1002,22 +1009,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B11CEEC0B01E2371FF840819D617CD45 /* Sources */ = {
+		7479226F50836F0A48D2A345264EAC96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE86E581276ADC0E1C523F588C9DC169 /* BBSHessianCall.m in Sources */,
-				D66CFB2BCA1B9A974B5FFCF28AC8FA25 /* BBSHessianDecoder.m in Sources */,
-				C661B2AD77CBF2F22B3B5A8A0D2CB245 /* BBSHessianEncoder.m in Sources */,
-				738429799D1F549612BAED56B2CEE2CD /* BBSHessianMapDecoder.m in Sources */,
-				B64AF85EEDC3338CDA3021ABDFE64BAA /* BBSHessianObjC.m in Sources */,
-				4FF73E3E7CC6BB021BCE93D36260A99C /* BBSHessianResult.m in Sources */,
-				0DCDD3C56F2F378194875D846E1BEB10 /* HaidoraNetworkHessian-dummy.m in Sources */,
-				2FEC2CC0F3226058AE37C812289B23D5 /* HDHessianBaseModel.m in Sources */,
-				AF95C4F99A611742493545D00959508B /* HDHessianRequest+HDPrivate.m in Sources */,
-				8CC2CF2402DA56CC71C945F3623B12C0 /* HDHessianRequest.m in Sources */,
-				91E81896C1D1389C77BBEFFE99E2B2E3 /* HDHessianRequestSerializer.m in Sources */,
-				1B48E4E70E69753FDE1C78893EC2E1AD /* HDHessianResponseSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA9B75468544AD9593861D8C5AA2893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D997572BEBF0C661955570CA60EB0A1 /* BBSHessianCall.m in Sources */,
+				32836AF0145B0D0D4A2991F1F1C32826 /* BBSHessianDecoder.m in Sources */,
+				7B46CD40A9FEE6D7F9DE0EA4B9732D9B /* BBSHessianEncoder.m in Sources */,
+				5BCCD23650AF776C0B9BE0333ADCF32F /* BBSHessianMapDecoder.m in Sources */,
+				E3F6219A79A59E8FBA81F7248FABB9AD /* BBSHessianObjC.m in Sources */,
+				B61FA5FED596C925BE2888C25B6532AA /* BBSHessianResult.m in Sources */,
+				63EDA3D963292504EAFA66241D78F6A9 /* HaidoraNetworkHessian-dummy.m in Sources */,
+				0426EAF5CA9E98FF8DD5F21601248195 /* HDHessianBaseModel.m in Sources */,
+				7B07882007DDC9F99BC6B9F34C9B83A5 /* HDHessianRequest+HDPrivate.m in Sources */,
+				49B60D9061323399F22FADE3A07F213B /* HDHessianRequest.m in Sources */,
+				BBC3706986E1E4D4CE143B66C974C6DF /* HDHessianRequestSerializer.m in Sources */,
+				48516D240E2BC29E5330ABEB70B1829C /* HDHessianRequestURLMapping.m in Sources */,
+				6B1902471D2171F81A70ADF6A087E497 /* HDHessianResponseSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,16 +1044,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7C5190F4CDDFF48DF135B4D53449B42 /* Sources */ = {
+		C3070DDF7AEDEF199E1687E673EF4A60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B117A0F7E3BC067794E5678D959F3A6 /* HaidoraNetwork-dummy.m in Sources */,
-				FCB6990B1698BE86BCA822854DE47AE2 /* HDNetworkConfig.m in Sources */,
-				84DF602C8BE6B0C3F10AF71958F7F4B7 /* HDNetworkProxy+HDNetworkPrivate.m in Sources */,
-				64B4A94E5004470804950C0933ABAD3B /* HDNetworkProxy+HDNetworkProxyUtils.m in Sources */,
-				90E32AA888DED1D35F29514DCF1E09EF /* HDNetworkProxy.m in Sources */,
-				7ED57A1F00EBC0170791350A31F4CF38 /* HDNetworkRequest.m in Sources */,
+				BB91474695D7F849B2EDD72656D0913A /* HaidoraNetwork-dummy.m in Sources */,
+				2D0F4CADEA72D11D969D46E614D68C58 /* HDNetworkConfig.m in Sources */,
+				F31AF9FDFA83475016A9679262DE95EC /* HDNetworkProxy+HDAFNetworking.m in Sources */,
+				BEAC65078D501D2ECA08F81082AC7D97 /* HDNetworkProxy+HDNetworkProxyUtils.m in Sources */,
+				5F749BEFFE9F14D95DA4EC9962962BFD /* HDNetworkProxy.m in Sources */,
+				C61B6094ECBB1E32E83C2145F5BBC3A6 /* HDNetworkRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1074,16 +1089,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7D7A412843760745E8131FCF50AD41F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1DCCE0447C0FD4CCC026391943A0BE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaidoraNetwork;
+			target = C6EDA3D729BA5283D00E2F61AE233F84 /* HaidoraNetwork */;
+			targetProxy = 71557E9313BBCD6FF929057AF02D19FC /* PBXContainerItemProxy */;
+		};
+		375B2AA7D30836750EACF2354E1B75D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HaidoraNetworkHessian-HaidoraNetworkHessian";
+			target = 2D39BA7EDBD267C9A5E005300CA45F49 /* HaidoraNetworkHessian-HaidoraNetworkHessian */;
+			targetProxy = 152757902B35E54CDF9B346C76B93A31 /* PBXContainerItemProxy */;
+		};
 		68F5889371833D97C2540C33C9A88F39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
@@ -1093,13 +1113,13 @@
 		74159B3EBAA847E3B4B4102004605474 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HaidoraNetworkHessian;
-			target = A4227336C5AEE79F841B6A0476D2CBA0 /* HaidoraNetworkHessian */;
+			target = 77790E55CF62ECDC0606FCBB5EB6F0FB /* HaidoraNetworkHessian */;
 			targetProxy = 42A928223AE8379A411D1E5C5DFD94AA /* PBXContainerItemProxy */;
 		};
 		7917F906AADDF3714125EC2D759DDDE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HaidoraNetworkHessian;
-			target = A4227336C5AEE79F841B6A0476D2CBA0 /* HaidoraNetworkHessian */;
+			target = 77790E55CF62ECDC0606FCBB5EB6F0FB /* HaidoraNetworkHessian */;
 			targetProxy = 3822340ABE6068149F495F55BE7E5100 /* PBXContainerItemProxy */;
 		};
 		950C19852E58D10AB7EC8C53F6461BB1 /* PBXTargetDependency */ = {
@@ -1107,12 +1127,6 @@
 			name = HaidoraNetwork;
 			target = C6EDA3D729BA5283D00E2F61AE233F84 /* HaidoraNetwork */;
 			targetProxy = F61600C8A86ACDAAB40D514885D965E2 /* PBXContainerItemProxy */;
-		};
-		9B0C1ECE926008BCA5EF719ECFA6422F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "HaidoraNetworkHessian-HaidoraNetworkHessian";
-			target = 9171BE5FC56CBB803B823D57891C1B7D /* HaidoraNetworkHessian-HaidoraNetworkHessian */;
-			targetProxy = D0F9F32D02857B2F2790A251382D7BC4 /* PBXContainerItemProxy */;
 		};
 		B9B38B1623DD05190350B1F9F4F92E73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1126,29 +1140,23 @@
 			target = 9FA97969508F2F091A68D5A17567540A /* HaidoraNetwork-HaidoraNetwork */;
 			targetProxy = A795E44666DAF573116CF61F269F8413 /* PBXContainerItemProxy */;
 		};
+		C869A24CBB731D419CCFFC5E67BF02B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */;
+			targetProxy = D83A53E668392CFD1C3BE352779E14BF /* PBXContainerItemProxy */;
+		};
 		D7D095FD3E52AD608E3CE206BE8462BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */;
 			targetProxy = 85ED775094E076E24BF851F22158B30E /* PBXContainerItemProxy */;
 		};
-		E5207EB5D70A5EFB15E1F023E82FB104 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HaidoraNetwork;
-			target = C6EDA3D729BA5283D00E2F61AE233F84 /* HaidoraNetwork */;
-			targetProxy = D00737D9407852E2A0E2A0C1C177B70B /* PBXContainerItemProxy */;
-		};
 		EE112968130973FA43FD7DE73EA4A9DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */;
 			targetProxy = F687AA86F769B53E0B6A4D49D517F534 /* PBXContainerItemProxy */;
-		};
-		F61D967653A01E797D52F60ED3B20C2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 4878C70B21CA37D7CB8A476BF986741B /* AFNetworking */;
-			targetProxy = 5FEEAE8D7B37DC494FFCB961C660EAF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1225,45 +1233,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		1F4309F71A3DF8453A26D8DAD1CD4A27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HaidoraNetworkHessian;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		26ECEA36DD59CDA1771D522AEBEAF689 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HaidoraNetworkHessian/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HaidoraNetworkHessian;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		2D40BB95E6C0D86A8D8791F9A1C88F11 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1352,7 +1321,7 @@
 			};
 			name = Release;
 		};
-		4AD25A29B6B477702DD2752C85DA93BE /* Release */ = {
+		674D27323DDFDB4140BB9426BA3A41CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */;
 			buildSettings = {
@@ -1362,38 +1331,11 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
-		};
-		4B0165970FA771EBF444C539BC48D606 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HaidoraNetworkHessian/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HaidoraNetworkHessian;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Debug;
 		};
 		7403DDABAAB18CC69B1664A65A463B39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36DF33FABAE68B620E9654944DD272A0 /* HaidoraNetwork.xcconfig */;
+			baseConfigurationReference = B22BE576675A2BB14533994A5EB807E0 /* HaidoraNetwork.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1420,7 +1362,7 @@
 		};
 		828E13BD94F05767125309A44387501D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36DF33FABAE68B620E9654944DD272A0 /* HaidoraNetwork.xcconfig */;
+			baseConfigurationReference = B22BE576675A2BB14533994A5EB807E0 /* HaidoraNetwork.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1475,9 +1417,21 @@
 			};
 			name = Debug;
 		};
+		88BA377241FB0A334C2D520142A47740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HaidoraNetworkHessian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		CD12F0C9EF04908345F9D2594A3EDBD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36DF33FABAE68B620E9654944DD272A0 /* HaidoraNetwork.xcconfig */;
+			baseConfigurationReference = B22BE576675A2BB14533994A5EB807E0 /* HaidoraNetwork.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = HaidoraNetwork;
@@ -1487,9 +1441,36 @@
 			};
 			name = Debug;
 		};
+		E0EC6CB582DEF64F95D7A3D7F9FA9F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaidoraNetworkHessian/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HaidoraNetworkHessian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E620EA061AFC812D989782F8B9DEDBE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36DF33FABAE68B620E9654944DD272A0 /* HaidoraNetwork.xcconfig */;
+			baseConfigurationReference = B22BE576675A2BB14533994A5EB807E0 /* HaidoraNetwork.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = HaidoraNetwork;
@@ -1521,6 +1502,33 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_HaidoraNetworkHessian_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6BEA3C571511AD203E62523D20301DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C205835F07105C9CF13DBE6866414BAB /* HaidoraNetworkHessian.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaidoraNetworkHessian/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HaidoraNetworkHessian/HaidoraNetworkHessian.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HaidoraNetworkHessian;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1568,20 +1576,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4574596BC55793D63B657C1BCD93F310 /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian-HaidoraNetworkHessian" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F4309F71A3DF8453A26D8DAD1CD4A27 /* Debug */,
-				4AD25A29B6B477702DD2752C85DA93BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		748EBC1823A3D09ACC6F1367F51D25B7 /* Build configuration list for PBXNativeTarget "HaidoraNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				828E13BD94F05767125309A44387501D /* Debug */,
 				7403DDABAAB18CC69B1664A65A463B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE0A981FBC324AC55142F7683BAF099 /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BEA3C571511AD203E62523D20301DB /* Debug */,
+				E0EC6CB582DEF64F95D7A3D7F9FA9F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1604,6 +1612,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B0659598A461E0988E2FF55895EE2A40 /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian-HaidoraNetworkHessian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674D27323DDFDB4140BB9426BA3A41CE /* Debug */,
+				88BA377241FB0A334C2D520142A47740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE11D7C4C8ED75D39832A6E73225B112 /* Build configuration list for PBXNativeTarget "Pods-HaidoraNetworkHessian_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1618,15 +1635,6 @@
 			buildConfigurations = (
 				FC3E93A34BB832B5E3D89B7A83303F4E /* Debug */,
 				3F57416E7C6E762FE9A8C940907BB696 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3B2EA5A3BE97A0CD61E864EC603CB7D /* Build configuration list for PBXNativeTarget "HaidoraNetworkHessian" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B0165970FA771EBF444C539BC48D606 /* Debug */,
-				26ECEA36DD59CDA1771D522AEBEAF689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

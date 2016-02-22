@@ -6,16 +6,19 @@
 //
 //
 
-#import "HDHessianRequest.h"
 #import "HDHessianRequest+HDPrivate.h"
+#import "HDHessianRequest.h"
 #import "HDHessianRequestSerializer.h"
+#import "HDHessianRequestURLMapping.h"
 #import "HDHessianResponseSerializer.h"
 
 @implementation HDHessianRequest
 
 - (NSString *)requesetURLString
 {
-    return [NSString stringWithFormat:@"/%@", NSStringFromClass([self class])];
+    NSString *className = NSStringFromClass([self class]);
+    NSString *URLString = [HDHessianRequestURLMapping URLStringForRequest:className];
+    return URLString;
 }
 
 - (HDRequestMethod)requestMethod

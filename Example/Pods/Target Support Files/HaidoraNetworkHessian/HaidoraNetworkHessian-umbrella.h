@@ -14,6 +14,7 @@
 #import "HDHessianRequest+HDPrivate.h"
 #import "HDHessianRequest.h"
 #import "HDHessianRequestSerializer.h"
+#import "HDHessianRequestURLMapping.h"
 #import "HDHessianResponseSerializer.h"
 
 FOUNDATION_EXPORT double HaidoraNetworkHessianVersionNumber;

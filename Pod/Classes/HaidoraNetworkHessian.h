@@ -7,3 +7,4 @@
 //
 
 #import "HDHessianRequest+HDPrivate.h"
+#import "HDHessianRequestURLMapping.h"

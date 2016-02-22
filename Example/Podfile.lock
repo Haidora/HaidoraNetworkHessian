@@ -22,7 +22,7 @@ PODS:
     - AFNetworking/NSURLSession
   - HaidoraNetwork (0.1.0):
     - AFNetworking (~> 2.6.1)
-  - HaidoraNetworkHessian (0.1.1):
+  - HaidoraNetworkHessian (0.1.2):
     - AFNetworking
     - HaidoraNetwork
 
@@ -36,6 +36,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   HaidoraNetwork: 12e1d3d87daab55b744e65ea6f695a117842f965
-  HaidoraNetworkHessian: a2b0f85de760d17d467ae80251a2719d3586d8cd
+  HaidoraNetworkHessian: e6fb4f6a9683ae391431a62dc5f2989aa1d518ca
 
 COCOAPODS: 0.39.0
