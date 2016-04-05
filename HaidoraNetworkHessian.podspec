@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "HaidoraNetworkHessian"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "HaidoraNetworkHessian."
 
   s.description      = <<-DESC

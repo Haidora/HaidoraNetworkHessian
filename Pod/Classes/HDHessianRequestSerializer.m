@@ -6,8 +6,9 @@
 //
 //
 
-#import "HDHessianRequestSerializer.h"
 #import "BBSHessianCall.h"
+#import "HDHessianRequestSerializer.h"
+#import "HDNetworkConfig+HDHessianSecurity.h"
 
 @implementation HDHessianRequestSerializer
 
@@ -64,7 +65,13 @@
                 [[BBSHessianCall alloc] initWithRemoteMethodName:methodName];
             [mutableParameters removeObjectAtIndex:0];
             [hessianCall setParameters:mutableParameters];
-            [mutableRequest setHTTPBody:[hessianCall data]];
+            NSData *tempData = [hessianCall data];
+            if (nil != [HDNetworkConfig sharedInstance].securityClass)
+            {
+                tempData = [[HDNetworkConfig sharedInstance]
+                                .securityClass securityEncodedRequestData:tempData];
+            }
+            [mutableRequest setHTTPBody:tempData];
 
 //日志
 #ifdef DEBUG
@@ -91,9 +98,9 @@
     {
         return nil;
     }
-    self.version = [[decoder
-        decodeObjectOfClass:[NSNumber class]
-                     forKey:NSStringFromSelector(@selector(version))] unsignedIntegerValue];
+    self.version = [[decoder decodeObjectOfClass:[NSNumber class]
+                                          forKey:NSStringFromSelector(@selector(version))]
+        unsignedIntegerValue];
     return self;
 }
 

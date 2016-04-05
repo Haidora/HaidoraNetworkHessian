@@ -6,8 +6,9 @@
 //
 //
 
-#import "HDHessianResponseSerializer.h"
 #import "BBSHessianResult.h"
+#import "HDHessianResponseSerializer.h"
+#import "HDNetworkConfig+HDHessianSecurity.h"
 
 @implementation HDHessianResponseSerializer
 
@@ -68,8 +69,13 @@ static BOOL AFErrorOrUnderlyingErrorHasCodeInDomain(NSError *error, NSInteger co
             return nil;
         }
     }
+    NSData *tempData = data;
+    if (nil != [HDNetworkConfig sharedInstance].securityClass)
+    {
+        tempData = [[HDNetworkConfig sharedInstance].securityClass securityDecodedRequestData:data];
+    }
 
-    BBSHessianResult *hessianResponse = [[BBSHessianResult alloc] initForReadingWithData:data];
+    BBSHessianResult *hessianResponse = [[BBSHessianResult alloc] initForReadingWithData:tempData];
     //    [response setRemoteClassPrefix:remoteClassPrefix];
     id decodedObject = [hessianResponse resultValue];
     // TODO:检查hessian错误

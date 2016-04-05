@@ -16,6 +16,7 @@
 #import "HDHessianRequestSerializer.h"
 #import "HDHessianRequestURLMapping.h"
 #import "HDHessianResponseSerializer.h"
+#import "HDNetworkConfig+HDHessianSecurity.h"
 
 FOUNDATION_EXPORT double HaidoraNetworkHessianVersionNumber;
 FOUNDATION_EXPORT const unsigned char HaidoraNetworkHessianVersionString[];
