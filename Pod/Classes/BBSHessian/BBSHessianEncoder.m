@@ -273,7 +273,7 @@ static NSMutableDictionary *gClassMapping;
     {
         [self encodeDate:anyObject];
     }
-    else if ([classString isEqualToString:@"NSConcreteData"])
+    else if ([objClass isSubclassOfClass:[NSData class]] ||[classString isEqualToString:@"NSConcreteData"]||[classString isEqualToString:@"NSConcreteMutableData"])
     {
         [self encodeData:anyObject];
     }
